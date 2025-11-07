@@ -1,0 +1,374 @@
+/* 페스티벌 컴팩트 버전 - 빈 공간 최소화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.festival-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #dbeafe 0%, #fef3c7 100%);
+  min-height: 100vh;
+}
+
+.festival-header {
+  text-align: center;
+  margin-bottom: 50px;
+  animation: festivalFadeInDown 0.8s ease;
+}
+
+.festival-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1a2980;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 10px rgba(26, 41, 128, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.festival-header-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  animation: festivalIconBounce 2s ease-in-out infinite;
+}
+
+.festival-header p {
+  font-size: 1.2rem;
+  color: #2a5298;
+  font-weight: 500;
+}
+
+.festival-category-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 40px;
+  animation: festivalFadeIn 1s ease;
+}
+
+.festival-category-btn {
+  padding: 12px 28px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(26, 41, 128, 0.2);
+  border-radius: 30px;
+  color: #1e3c72;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.festival-category-btn:hover {
+  background: rgba(255, 182, 193, 0.4);
+  border-color: #ff6b9d;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.3);
+}
+
+.festival-category-btn.active {
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8e53 100%);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 8px 25px rgba(255, 107, 157, 0.5);
+  transform: translateY(-2px);
+}
+
+.festival-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  animation: festivalFadeInUp 1s ease;
+  align-items: start;
+}
+
+.festival-card {
+  background: linear-gradient(180deg, #ffffff 0%, #fffbf5 100%);
+  border-radius: 20px; /* ← 24px에서 축소 */
+  overflow: hidden;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.festival-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px; /* ← 24px에서 축소 */
+  padding: 3px;
+  background: linear-gradient(135deg, #26d0ce 0%, #1a2980 50%, #ff6b9d 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.4;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.festival-card:hover::before {
+  opacity: 1;
+}
+
+.festival-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 50px rgba(255, 107, 157, 0.3);
+}
+
+.festival-image {
+  position: relative;
+  width: 100%;
+  height: 240px; /* ← 280px에서 40px 축소 */
+  overflow: hidden;
+  background: linear-gradient(135deg, #e8f4f8 0%, #d4ebf0 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.festival-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.festival-card:hover .festival-image img {
+  transform: scale(1.08);
+}
+
+.festival-category-badge {
+  position: absolute;
+  top: 12px; /* ← 15px에서 축소 */
+  right: 12px; /* ← 15px에서 축소 */
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8e53 100%);
+  color: #ffffff;
+  padding: 6px 14px; /* ← 8px 18px에서 축소 */
+  border-radius: 20px; /* ← 25px에서 축소 */
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(255, 107, 157, 0.5);
+  z-index: 10;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.festival-content {
+  padding: 18px 20px; /* ← 28px에서 대폭 축소 */
+  background: linear-gradient(180deg, rgba(255, 251, 245, 0.95) 0%, rgba(255, 255, 255, 0.98) 100%);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* ← 전체 간격 8px 통일 */
+}
+
+.festival-title {
+  font-size: 1.35rem; /* ← 1.5rem에서 축소 */
+  color: #1a2980;
+  margin-bottom: 0; /* ← 15px 제거 */
+  font-weight: 800;
+  line-height: 1.4;
+  min-height: 3.92em; /* ← 3줄 높이 (축소) */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}
+
+.festival-info {
+  margin: 0; /* ← margin 제거 */
+  min-height: 60px; /* ← 70px에서 축소 */
+}
+
+.festival-info p {
+  color: #2a5298;
+  font-size: 0.85rem; /* ← 0.95rem에서 축소 */
+  margin: 6px 0; /* ← 8px에서 축소 */
+  display: flex;
+  align-items: center;
+  gap: 6px; /* ← 8px에서 축소 */
+  font-weight: 500;
+}
+
+.festival-description {
+  color: #374151;
+  font-size: 0.85rem; /* ← 0.95rem에서 축소 */
+  line-height: 1.6;
+  margin: 0; /* ← 15px 제거 */
+  min-height: 4.32em; /* ← 3줄 높이 (축소) */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+.festival-link {
+  display: inline-block;
+  margin-top: auto;
+  padding: 9px 22px; /* ← 11px 26px에서 축소 */
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8e53 100%);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem; /* ← 0.95rem에서 축소 */
+  border-radius: 20px; /* ← 25px에서 축소 */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  align-self: flex-start;
+}
+
+.festival-link:hover {
+  transform: translateX(5px) translateY(-2px);
+  box-shadow: 0 6px 25px rgba(255, 107, 157, 0.6);
+  background: linear-gradient(135deg, #ff8e53 0%, #ff6b9d 100%);
+}
+
+.festival-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+}
+
+.festival-loading-spinner {
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgba(255, 107, 157, 0.2);
+  border-top-color: #ff6b9d;
+  border-bottom-color: #ff8e53;
+  border-radius: 50%;
+  animation: festivalSpin 1s linear infinite;
+  box-shadow: 0 4px 20px rgba(255, 107, 157, 0.3);
+}
+
+.festival-loading-container p {
+  font-size: 1.2rem;
+  color: #1e3c72;
+  font-weight: 600;
+}
+
+.festival-error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+}
+
+.festival-error-container p {
+  font-size: 1.2rem;
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.festival-retry-btn {
+  padding: 14px 35px;
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8e53 100%);
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.festival-retry-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 107, 157, 0.6);
+  background: linear-gradient(135deg, #ff8e53 0%, #ff6b9d 100%);
+}
+
+.festival-no-data {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 20px;
+  color: #2a5298;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* 아이콘 애니메이션 */
+@keyframes festivalIconBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes festivalSpin { 
+  to { transform: rotate(360deg); } 
+}
+
+@keyframes festivalFadeIn { 
+  from { opacity: 0; } 
+  to { opacity: 1; } 
+}
+
+@keyframes festivalFadeInDown { 
+  from { opacity: 0; transform: translateY(-30px); } 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes festivalFadeInUp { 
+  from { opacity: 0; transform: translateY(30px); } 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+@media (max-width: 768px) {
+  .festival-container {
+    padding: 60px 15px;
+  }
+  .festival-header h1 { 
+    font-size: 2.2rem;
+    gap: 10px;
+  }
+  .festival-header-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .festival-grid { 
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    padding: 0 5px;
+  }
+  .festival-category-filter { 
+    gap: 8px; 
+  }
+  .festival-category-btn { 
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+  }
+  .festival-image { 
+    height: 200px; /* ← 모바일은 더 축소 */
+  }
+  .festival-title {
+    font-size: 1.2rem; /* ← 모바일 축소 */
+    min-height: 3.6em;
+  }
+}

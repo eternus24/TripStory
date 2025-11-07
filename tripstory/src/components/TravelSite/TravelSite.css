@@ -1,0 +1,404 @@
+/* =====================================
+   🎨 Global Reset & Layout - COMPACT
+===================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Pretendard', sans-serif;
+  background: linear-gradient(135deg, #dbeafe 0%, #fef3c7 100%);
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+/* =====================================
+   🌍 Container & Header - COMPACT
+===================================== */
+.travel-site-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 20px; /* ← 70px 25px에서 축소 */
+}
+
+.travel-site-header {
+  text-align: center;
+  margin-bottom: 40px; /* ← 50px에서 축소 */
+  animation: fadeInDown 0.7s ease;
+}
+
+.travel-site-header h1 {
+  font-size: 2.5rem; /* ← 2.8rem에서 축소 */
+  font-weight: 800;
+  color: #1e3a8a;
+  text-shadow: 0 2px 10px rgba(30, 58, 138, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* ← 12px에서 축소 */
+}
+
+.travel-site-header .subtitle {
+  font-size: 1.05rem; /* ← 1.15rem에서 축소 */
+  color: #334155;
+  margin-top: 8px; /* ← 10px에서 축소 */
+  font-weight: 500;
+}
+
+/* =====================================
+   🧭 Category Buttons - COMPACT
+===================================== */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; /* ← 14px에서 축소 */
+  margin-bottom: 35px; /* ← 45px에서 축소 */
+  animation: fadeIn 0.9s ease;
+}
+
+.category-btn {
+  padding: 10px 22px; /* ← 12px 26px에서 축소 */
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(59, 130, 246, 0.2);
+  border-radius: 25px; /* ← 30px에서 축소 */
+  color: #1e3a8a;
+  font-size: 0.95rem; /* ← 1rem에서 축소 */
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.category-btn:hover {
+  background: rgba(147, 197, 253, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(147, 197, 253, 0.4);
+}
+
+.category-btn.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  color: #ffffff;
+  border-color: transparent;
+  box-shadow: 0 6px 22px rgba(59, 130, 246, 0.4);
+  transform: translateY(-2px);
+}
+
+/* =====================================
+   🧊 Card Layout - Masonry (Pinterest Style)
+   (기존 grid → column-count 로 교체)
+===================================== */
+.sites-grid {
+  column-count: 3;                /* 한 줄에 카드 3개 */
+  column-gap: 25px;               /* 카드 사이 간격 */
+  animation: fadeInUp 1s ease;
+}
+
+@media (max-width: 1100px) {
+  .sites-grid { column-count: 2; }
+}
+@media (max-width: 768px) {
+  .sites-grid { column-count: 1; }
+}
+
+/* =====================================
+   💎 Card Style - COMPACT
+   (디자인 유지, Masonry 동작만 추가)
+===================================== */
+.site-card {
+  /* Masonry 핵심: 컬럼에서 깨지지 않게 */
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+
+  /* 컬럼 레이아웃에서 간격 */
+  margin: 0 0 25px;
+
+  /* 원래 디자인 유지 */
+  background: linear-gradient(180deg, rgba(255,255,255,0.75) 0%, rgba(248,250,252,0.85) 100%);
+  backdrop-filter: blur(16px);
+  border-radius: 18px; /* ← 20px에서 축소 */
+  border: 2px solid rgba(147,197,253,0.4);
+  box-shadow: 0 10px 30px rgba(30, 64, 175, 0.1);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  display: flex;                 /* 유지 */
+  flex-direction: column;        /* 유지 */
+  /* height: 100%;  ← 제거: 확장 시 옆 카드 따라 키 늘어나는 이슈 */
+  position: relative;
+}
+
+.site-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 18px; /* ← 20px에서 축소 */
+  padding: 2px;
+  background: linear-gradient(135deg, #3b82f6, #60a5fa, #fbbf24);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.25;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.site-card:hover::before { opacity: 0.9; }
+
+.site-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.25);
+}
+
+/* 확장 상태: 자세히 보기 눌린 카드만 */
+.site-card.expanded {
+  /* 높이는 내용에 맞게 자연 확장 (max-height 제어 X) */
+  background: linear-gradient(180deg, #fff, #f0f9ff);
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.25);
+}
+
+/* =====================================
+   🧱 Header Section - COMPACT
+===================================== */
+.site-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* ← 10px에서 축소 */
+  padding: 16px 20px 8px; /* ← 20px 24px 10px에서 축소 */
+}
+
+.site-icon { font-size: 1.4rem; /* ← 1.6rem에서 축소 */ }
+
+.site-name {
+  flex: 1;
+  font-size: 1.2rem; /* ← 1.3rem에서 축소 */
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.category-badge {
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  color: #fff;
+  padding: 4px 12px; /* ← 5px 14px에서 축소 */
+  border-radius: 18px; /* ← 20px에서 축소 */
+  font-size: 0.75rem; /* ← 0.8rem에서 축소 */
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(59, 130, 246, 0.4);
+}
+
+/* =====================================
+   ⭐ Rating Section - COMPACT
+===================================== */
+.site-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* ← 6px에서 축소 */
+  padding: 0 20px; /* ← 0 24px에서 축소 */
+  color: #fbbf24;
+  font-weight: 600;
+  font-size: 0.9rem; /* ← 추가 축소 */
+}
+
+.review-count {
+  color: #475569;
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+}
+
+/* =====================================
+   💡 Description Box - COMPACT
+===================================== */
+.description-recommend-box {
+  margin: 10px 20px; /* ← 15px 24px에서 축소 */
+  background: rgba(255, 255, 255, 0.7);
+  border-left: 3px solid #60a5fa; /* ← 4px에서 축소 */
+  border-radius: 8px; /* ← 10px에서 축소 */
+  padding: 10px 12px; /* ← 14px 16px에서 축소 */
+  line-height: 1.5;
+  color: #334155;
+}
+
+.description-section {
+  margin-bottom: 6px; /* ← 8px에서 축소 */
+  font-size: 0.9rem; /* ← 0.95rem에서 축소 */
+}
+
+.recommend-section {
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+/* =====================================
+   🎁 Benefit / Feature Tags - COMPACT
+===================================== */
+.benefits-box {
+  margin: 8px 20px; /* ← 10px 24px에서 축소 */
+  background: linear-gradient(135deg, rgba(219,234,254,0.5), rgba(255,251,235,0.7));
+  border-radius: 10px; /* ← 12px에서 축소 */
+  padding: 10px 12px; /* ← 12px 16px에서 축소 */
+  color: #1e3a8a;
+  font-weight: 500;
+  font-size: 0.9rem; /* ← 추가 축소 */
+}
+
+.feature-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* ← 6px에서 축소 */
+  margin: 8px 20px; /* ← 10px 24px에서 축소 */
+}
+
+.feature-tag {
+  background: rgba(147,197,253,0.3);
+  color: #1d4ed8;
+  font-size: 0.75rem; /* ← 0.8rem에서 축소 */
+  font-weight: 600;
+  padding: 4px 9px; /* ← 5px 10px에서 축소 */
+  border-radius: 10px; /* ← 12px에서 축소 */
+}
+
+/* =====================================
+   🌏 Region Section - COMPACT
+===================================== */
+.region-info {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* ← 6px에서 축소 */
+  padding: 8px 20px; /* ← 10px 24px에서 축소 */
+  color: #475569;
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+}
+
+/* =====================================
+   🔽 Expand Button - COMPACT
+===================================== */
+.toggle-button {
+  background: none;
+  border: none;
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+  cursor: pointer;
+  margin: 8px 20px; /* ← 10px 24px에서 축소 */
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  color: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* =====================================
+   ✅ Pros & ⚠️ Cons Section - COMPACT
+===================================== */
+.pros-cons-section {
+  margin: 8px 20px 16px; /* ← 10px 24px 20px에서 축소 */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* ← 12px에서 축소 */
+}
+
+.section-title {
+  font-size: 0.95rem; /* ← 1rem에서 축소 */
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 4px; /* ← 5px에서 축소 */
+}
+
+.pros-list li,
+.cons-list li {
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+  color: #374151;
+  margin-left: 14px; /* ← 16px에서 축소 */
+  list-style: disc;
+  line-height: 1.4;
+}
+
+/* =====================================
+   🔗 Footer Button - COMPACT
+===================================== */
+.site-card-footer {
+  margin-top: auto;
+  padding: 16px 20px 20px; /* ← 20px 24px 24px에서 축소 */
+}
+
+.visit-button {
+  width: 100%;
+  padding: 10px 0; /* ← 12px 0에서 축소 */
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  color: white;
+  border: none;
+  border-radius: 12px; /* ← 14px에서 축소 */
+  font-weight: 700;
+  font-size: 0.95rem; /* ← 1rem에서 축소 */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.visit-button:hover {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  transform: translateY(-3px);
+}
+
+/* =====================================
+   🔄 Animations
+===================================== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =====================================
+   📱 Responsive - COMPACT
+===================================== */
+@media (max-width: 768px) {
+  .travel-site-container {
+    padding: 40px 15px; /* ← 50px 15px에서 축소 */
+  }
+
+  .travel-site-header h1 {
+    font-size: 2rem; /* ← 2.2rem에서 축소 */
+  }
+
+  /* 모바일에선 한 컬럼 */
+  .sites-grid {
+    column-count: 1;
+    column-gap: 18px; /* 기존 간격 감안 */
+  }
+
+  .site-card {
+    border-radius: 16px; /* ← 18px에서 축소 */
+  }
+
+  .site-card-header {
+    padding: 14px 18px 6px; /* ← 더 축소 */
+  }
+
+  .description-recommend-box,
+  .benefits-box,
+  .feature-tags,
+  .region-info,
+  .toggle-button,
+  .pros-cons-section {
+    margin-left: 18px; /* ← 모바일 패딩 축소 */
+    margin-right: 18px;
+  }
+
+  .site-card-footer {
+    padding: 14px 18px 18px; /* ← 모바일 패딩 축소 */
+  }
+}

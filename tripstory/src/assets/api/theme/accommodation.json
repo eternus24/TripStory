@@ -1,0 +1,137 @@
+[
+  {
+    "id": "stay001",
+    "title": "가평 리버뷰 독채 풀빌라",
+    "location": "경기도 가평군 가평읍 북한강변로 137-46",
+    "description": "북한강이 바로 앞에 펼쳐지는 리버뷰 풀빌라. 온수풀, 빔프로젝트, 바비큐 테라스까지 갖춰 감성 가득한 독채 숙소.",
+    "category": "감성숙소",
+    "imageUrl": "https://kr.hotels.com/go/south-korea/blog-poolvilla-pensions-best-5/assets/images/가평_샤이니리버.jpg",
+    "tags": ["가평","풀빌라","독채","북한강뷰"]
+  },
+  {
+    "id": "stay002",
+    "title": "제주 협재구옥 감성 독채펜션",
+    "location": "제주특별자치도 제주시 한림읍 한림로 33",
+    "description": "제주 한림 인근 협재해변에 위치한 구옥 감성 독채 숙소. 바다 전망과 독립된 공간에서 편안한 시간을 보낼 수 있어요.",
+    "category": "감성숙소",
+    "imageUrl": "https://kr.hotels.com/go/south-korea/blog-poolvilla-pensions-best-5/assets/images/리벤시아_풀빌라.jpg",
+    "tags": ["제주","한림","구옥독채","바다뷰"]
+  },
+  {
+    "id": "stay003",
+    "title": "강릉 옥계 돌담집 독채 숙소 ‘까롱별장’",
+    "location": "강원특별자치도 강릉시 옥계면 옥계리",
+    "description": "돌담과 넓은 마당이 인상적인 옥계의 독채 숙소. 산책하고 하늘과 자연을 온전히 느낄 수 있는 감성 공간.",
+    "category": "감성숙소",
+    "imageUrl": "https://www.yeogi.com/accommodation/private-villa/kr/assets/images/옥계_돌담집.jpg",
+    "tags": ["강릉","옥계","독채","돌담마당"]
+  },
+  {
+    "id": "stay004",
+    "title": "거제 가조도 라모타 풀빌라",
+    "location": "경상남도 거제시 사등면 창호리 315",
+    "description": "섬 속의 섬 거제 가조도에 위치한 프라이빗 풀빌라. 인피니티 풀과 파노라믹 창으로 자연 속 힐링 숙소.",
+    "category": "감성숙소",
+    "imageUrl": "https://kr.hotels.com/go/south-korea/blog-poolvilla-pensions-best-5/assets/images/거제_라모타풀빌라.jpg",
+    "tags": ["거제","가조도","풀빌라","바다뷰"]
+  },
+  {
+    "id": "stay005",
+    "title": "남해 팔영산 활공장 인근 힐링하우스",
+    "location": "전라남도 고흥군 영남면 팔영산로 130",
+    "description": "패러글라이딩 명소 팔영산 근처에 위치한 힐링하우스. 남해 바다 경관과 산 속의 여유가 조화된 감성 숙소.",
+    "category": "감성숙소",
+    "imageUrl": "https://mblogthumb-phinf.pstatic.net/…/팔영산_활공장_전경.jpg",
+    "tags": ["고흥","남해바다","힐링하우스","감성숙소"]
+  },
+  {
+    "id": "stay006",
+    "title": "전남 여수 돌산읍 히든비치 리조트 풀빌라",
+    "location": "전라남도 여수시 돌산읍 몰둠벙길 54",
+    "description": "여수 바닷가 바로 앞 풀빌라 숙소. 프라이빗 수영장과 감각적 인테리어로 ‘휴식’ 그 자체를 선사해요.",
+    "category": "감성숙소",
+    "imageUrl": "https://kr.hotels.com/go/south-korea/blog-poolvilla-pensions-best-5/assets/images/슈가브리움.jpg",
+    "tags": ["여수","돌산","풀빌라","오션뷰"]
+  },
+  {
+    "id": "stay007",
+    "title": "태안 썬스톤 풀빌라",
+    "location": "충청남도 태안군 (구체 주소 숙박사이트 참조)",
+    "description": "동남아 리조트 느낌의 태안 풀빌라. 바다와 숲이 어우러진 공간에서 불멍과 감성밤을 즐길 수 있어요.",
+    "category": "감성숙소",
+    "imageUrl": "https://nol.yanolja.com/…/태안_썬스톤풀빌라.jpg",
+    "tags": ["태안","풀빌라","감성리조트","바다숲"]
+  },
+  {
+    "id": "stay008",
+    "title": "양양 족도해변 인근 감성독채 숙소 ‘스테이 죽도’",
+    "location": "강원특별자치도 양양군 현남면 인구리",
+    "description": "동해 양양 죽도해변 도보 2분 거리에 위치한 감성독채 숙소. 바다와 카페거리를 함께 즐기기 좋아요.",
+    "category": "감성숙소",
+    "imageUrl": "https://www.yeogi.com/accommodation/private-villa/kr/assets/images/양양_스테이죽도.jpg",
+    "tags": ["양양","죽도해변","감성독채","바다카페"]
+  },
+  {
+    "id": "stay009",
+    "title": "포항 슬로우오션 풀빌라",
+    "location": "경상북도 포항시 (구체 주소 숙박사이트 참조)",
+    "description": "바다와 숲이 어우러진 포항 풀빌라. 온수풀과 감성적인 실내 공간으로 휴식에 집중할 수 있는 숙소.",
+    "category": "감성숙소",
+    "imageUrl": "https://nol.yanolja.com/…/포항_슬로우오션풀빌라.jpg",
+    "tags": ["포항","풀빌라","숲바다","힐링숙소"]
+  },
+  {
+    "id": "stay010",
+    "title": "경기 포천 산정호수 글램핑 & 펜션",
+    "location": "경기도 포천시 산정호수 일대",
+    "description": "호수와 산이 어우러진 포천 글램핑형 펜션. 자연 속에서 캠핑감성과 숙소감성을 함께 느낄 수 있어요.",
+    "category": "감성숙소",
+    "imageUrl": "https://nol.yanolja.com/…/포천_산정호수글램핑.jpg",
+    "tags": ["포천","산정호수","글램핑","자연숙소"]
+  },
+  {
+    "id": "stay011",
+    "title": "경남 합천 뷰하우스 독채 힐링하우스",
+    "location": "경상남도 합천군 봉산면 (구체 주소 숙박사이트 참조)",
+    "description": "합천 산자락에 자리한 독채 힐링하우스. 단 한팀만 받을 정도로 프라이빗하고 감성적인 공간이에요.",
+    "category": "감성숙소",
+    "imageUrl": "https://kr.hotels.com/…/합천_뷰하우스.jpg",
+    "tags": ["합천","독채","힐링하우스","감성숙소"]
+  },
+  {
+    "id": "stay012",
+    "title": "경기도 양평 해장국거리 인근 감성펜션 ‘더 머물다’",
+    "location": "경기도 양평군 양평읍 (구체 주소 숙박사이트 참조)",
+    "description": "양평 IC에서 2분 거리, 숲속 테라스와 잔디마당이 있는 펜션. 반려견 동반 가능하며 감성적인 공간으로 추천돼요.",
+    "category": "감성숙소",
+    "imageUrl": "https://kr.hotels.com/…/양평_더머물다.jpg",
+    "tags": ["양평","펜션","잔디마당","반려견"]
+  },
+  {
+    "id": "stay013",
+    "title": "충북 단양 두악산 활공장 근처 프라이빗 하우스",
+    "location": "충청북도 단양군 가곡면 사평리",
+    "description": "패러글라이딩 활공장 인근 독채 하우스. 남한강 풍경과 함께 감성 여유를 즐길 수 있는 숙소.",
+    "category": "감성숙소",
+    "imageUrl": "https://travel.davidbro.com/…/단양_카페산_전망카페.jpg",
+    "tags": ["단양","패러글라이딩","감성하우스","남한강뷰"]
+  },
+  {
+    "id": "stay014",
+    "title": "충북 속리산 산자락 숲속 펜션",
+    "location": "충청북도 보은군 속리산면 법주사로 84",
+    "description": "속리산 숲속에 자리한 펜션. 사찰과 계곡이 어우러지는 조용한 숙소로 트레킹 후 머무르기 좋아요.",
+    "category": "감성숙소",
+    "imageUrl": "https://www.tourtoctoc.com/…/속리산_숲속숙소.jpg",
+    "tags": ["속리산","산자락","숲속펜션","힐링"]
+  },
+  {
+    "id": "stay015",
+    "title": "서울 송파 잠실 인근 감성하우스 ‘블루문’",
+    "location": "서울특별시 송파구 잠실동 (구체 주소 숙박사이트 참조)",
+    "description": "도심에서도 감성 숙소를! 잠실한강공원, 석촌호수 인근에 있는 감각적인 숙소로 도시여행과 감성을 동시에.",
+    "category": "감성숙소",
+    "imageUrl": "https://www.yeogi.com/accommodation/private-villa/kr/assets/images/서울_블루문.jpg",
+    "tags": ["서울","잠실","감성하우스","도심숙소"]
+  }
+]

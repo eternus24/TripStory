@@ -1,0 +1,444 @@
+/* 빈 공간 최소화 - 컴팩트 버전 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.theme-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f3e7ff 0%, #e3f2ff 50%, #d4ebff 100%);
+  min-height: 100vh;
+}
+
+.theme-header {
+  text-align: center;
+  margin-bottom: 50px;
+  animation: themeFadeInDown 0.8s ease;
+}
+
+.theme-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #5d4a7a;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 10px rgba(155, 126, 199, 0.15);
+}
+
+.theme-header p {
+  font-size: 1.2rem;
+  color: #7a6b9e;
+  font-weight: 500;
+}
+
+.theme-category-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 40px;
+  animation: themeFadeIn 1s ease;
+}
+
+.theme-category-btn {
+  padding: 12px 28px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2.5px solid rgba(155, 126, 199, 0.4);
+  border-radius: 30px;
+  color: #7a6b9e;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.category-icon {
+  font-size: 1.1rem;
+}
+
+.theme-category-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: #b8a5d4;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(155, 126, 199, 0.35);
+}
+
+.theme-category-btn.active {
+  background: linear-gradient(135deg, #b8a5d4 0%, #89c4f4 100%);
+  border-color: #b8a5d4;
+  color: #ffffff;
+  box-shadow: 0 8px 25px rgba(155, 126, 199, 0.5);
+  transform: translateY(-2px);
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  animation: themeFadeInUp 1s ease;
+  align-items: start;
+}
+
+/* 카드 자체 */
+.theme-card {
+  border-radius: 20px;
+  border: 3px solid transparent;                 /* 투명 보더 */
+  background:
+    linear-gradient(#fff, #fff) padding-box,      /* 안쪽(콘텐츠) 흰 배경 */
+    linear-gradient(135deg, #d4a5ff 0%, #89c4f4 50%, #b8a5d4 100%) border-box; /* 바깥 그라데이션 테두리 */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* 이미지가 모서리를 넘지 않게 */
+  overflow: hidden;
+}
+
+/* 카드 상단 썸네일 영역이 있다면 */
+.theme-card__thumb {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.theme-card__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* 이미지 하단 빈줄 방지 */
+}
+
+.theme-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 25px 50px rgba(155, 126, 199, 0.35);
+  border-width: 4px;
+}
+
+.theme-image {
+  position: relative;
+  width: 100%;
+  height: 240px; /* ← 280px에서 240px로 축소 */
+  overflow: hidden;
+  background: linear-gradient(135deg, #f3e7ff 0%, #e3f2ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.theme-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.theme-card:hover .theme-image img {
+  transform: scale(1.08);
+}
+
+.theme-category-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(135deg, #b8a5d4 0%, #89c4f4 100%);
+  color: #ffffff;
+  padding: 6px 14px; /* ← 8px 18px에서 축소 */
+  border-radius: 20px;
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(155, 126, 199, 0.6);
+  z-index: 10;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+.theme-content {
+  padding: 16px 18px; /* ← 24px에서 대폭 축소 */
+  background: #ffffff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* ← 전체 요소 간격 8px로 통일 */
+}
+
+.theme-title {
+  font-size: 1.3rem; /* ← 1.4rem에서 축소 */
+  color: #5d4a7a;
+  margin-bottom: 0; /* ← 14px에서 제거 */
+  font-weight: 800;
+  line-height: 1.3;
+  min-height: 2.6em; /* ← 2줄 고정 (축소) */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.theme-info {
+  margin: 0; /* ← margin 제거 */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px; /* ← 8px에서 축소 */
+  align-items: start;
+}
+
+.theme-info p {
+  color: #7a6b9e;
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+  display: flex;
+  align-items: center;
+  gap: 4px; /* ← 6px에서 축소 */
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.theme-description {
+  color: #4a4a4a;
+  font-size: 0.85rem; /* ← 0.9rem에서 축소 */
+  line-height: 1.5;
+  margin: 0; /* ← margin 제거 */
+  min-height: 3.6em; /* ← 3줄 고정 (축소) */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.theme-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* ← 6px에서 축소 */
+  margin: 0; /* ← margin 제거 */
+  min-height: 28px; /* ← 32px에서 축소 */
+  align-items: flex-start;
+}
+
+.theme-tag {
+  background: linear-gradient(135deg, rgba(243, 231, 255, 0.7) 0%, rgba(227, 242, 255, 0.7) 100%);
+  color: #7a6b9e;
+  padding: 4px 12px; /* ← 5px 14px에서 축소 */
+  border-radius: 15px;
+  font-size: 0.75rem; /* ← 0.8rem에서 축소 */
+  font-weight: 600;
+  border: 2px solid rgba(155, 126, 199, 0.35);
+  backdrop-filter: blur(10px);
+}
+
+.theme-activities {
+  margin: 0; /* ← margin 제거 */
+  padding: 10px; /* ← 14px에서 축소 */
+  background: linear-gradient(135deg, rgba(243, 231, 255, 0.5) 0%, rgba(227, 242, 255, 0.5) 100%);
+  border-radius: 10px;
+  border: 2px solid rgba(155, 126, 199, 0.25);
+  border-left: 4px solid #b8a5d4; /* ← 5px에서 축소 */
+}
+
+.theme-activities strong {
+  color: #7a6b9e;
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  display: block;
+  margin-bottom: 4px; /* ← 6px에서 축소 */
+  font-weight: 700;
+}
+
+.theme-activities p {
+  color: #4a4a4a;
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  line-height: 1.4;
+}
+
+.theme-extra {
+  margin: 0; /* ← margin 제거 */
+  padding: 10px; /* ← 12px에서 축소 */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(243, 231, 255, 0.4) 100%);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px; /* ← 10px에서 축소 */
+  border: 2px solid rgba(155, 126, 199, 0.2);
+}
+
+.theme-extra p {
+  color: #7a6b9e;
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.theme-tips {
+  margin: 0; /* ← margin 제거 */
+  padding: 10px; /* ← 14px에서 축소 */
+  background: linear-gradient(135deg, rgba(255, 247, 230, 0.7) 0%, rgba(255, 252, 245, 0.7) 100%);
+  border-radius: 10px;
+  border: 2px solid rgba(244, 200, 156, 0.4);
+  border-left: 4px solid #f4c89c; /* ← 5px에서 축소 */
+}
+
+.theme-tips strong {
+  color: #d4922f;
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  display: block;
+  margin-bottom: 4px; /* ← 6px에서 축소 */
+  font-weight: 700;
+}
+
+.theme-tips p {
+  color: #4a4a4a;
+  font-size: 0.8rem; /* ← 0.85rem에서 축소 */
+  line-height: 1.4;
+}
+
+.theme-link {
+  display: inline-block;
+  margin-top: auto;
+  padding: 9px 22px; /* ← 11px 26px에서 축소 */
+  background: linear-gradient(135deg, #b8a5d4 0%, #89c4f4 100%);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem; /* ← 0.95rem에서 축소 */
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(155, 126, 199, 0.4);
+  border: 2.5px solid rgba(255, 255, 255, 0.4);
+  text-align: center;
+  align-self: flex-start;
+}
+
+.theme-link:hover {
+  transform: translateX(5px) translateY(-2px);
+  box-shadow: 0 6px 25px rgba(155, 126, 199, 0.6);
+  background: linear-gradient(135deg, #89c4f4 0%, #b8a5d4 100%);
+}
+
+.theme-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+}
+
+.theme-loading-spinner {
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgba(184, 165, 212, 0.2);
+  border-top-color: #b8a5d4;
+  border-bottom-color: #89c4f4;
+  border-radius: 50%;
+  animation: themeSpin 1s linear infinite;
+  box-shadow: 0 4px 20px rgba(155, 126, 199, 0.3);
+}
+
+.theme-loading-container p {
+  font-size: 1.2rem;
+  color: #7a6b9e;
+  font-weight: 600;
+}
+
+.theme-error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 20px;
+}
+
+.theme-error-container p {
+  font-size: 1.2rem;
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.theme-retry-btn {
+  padding: 14px 35px;
+  background: linear-gradient(135deg, #b8a5d4 0%, #89c4f4 100%);
+  border: 2.5px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(155, 126, 199, 0.4);
+}
+
+.theme-retry-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(155, 126, 199, 0.6);
+  background: linear-gradient(135deg, #89c4f4 0%, #b8a5d4 100%);
+}
+
+.theme-no-data {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 20px;
+  color: #7a6b9e;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: #ffffff;
+  border-radius: 24px;
+  border: 3px solid rgba(155, 126, 199, 0.3);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+@keyframes themeSpin { 
+  to { transform: rotate(360deg); } 
+}
+
+@keyframes themeFadeIn { 
+  from { opacity: 0; } 
+  to { opacity: 1; } 
+}
+
+@keyframes themeFadeInDown { 
+  from { opacity: 0; transform: translateY(-30px); } 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+@keyframes themeFadeInUp { 
+  from { opacity: 0; transform: translateY(30px); } 
+  to { opacity: 1; transform: translateY(0); } 
+}
+
+@media (max-width: 768px) {
+  .theme-container {
+    padding: 60px 15px;
+  }
+  .theme-header h1 { 
+    font-size: 2.2rem; 
+  }
+  .theme-grid { 
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    padding: 0 5px;
+  }
+  .theme-category-filter { 
+    gap: 8px; 
+  }
+  .theme-category-btn { 
+    padding: 10px 20px; 
+    font-size: 0.9rem; 
+  }
+  .theme-image { 
+    height: 200px; /* ← 모바일은 더 축소 */
+  }
+  .theme-info {
+    grid-template-columns: 1fr;
+  }
+  .theme-extra {
+    grid-template-columns: 1fr;
+  }
+}

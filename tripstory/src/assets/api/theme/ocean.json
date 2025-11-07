@@ -1,0 +1,407 @@
+[
+  {
+    "id": "sea001",
+    "title": "부산 해운대 블루라인파크",
+    "location": "부산광역시 해운대구 달맞이길 116",
+    "description": "해운대 해변 위로 뻗은 스카이캡슐과 해안 산책로. 바다와 도시가 어우러진 감성적인 해안 경관을 즐길 수 있어요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjlfMzYg%2FMDAxNzA2NTM2OTY0NTc1.z1bc_5Z0iaIByK51Ka3kIfpNNAGqsrCg5hfSNeEiGsMg.tW28a3oCoCHjAggpX-Ko7iIYjqmNw5h-6Jbf1mgD-LQg.JPEG.sanhyo29%2F%25C4%25AB%25C4%25AB%25BF%25C0%25BD%25BA%25C5%25E4%25B8%25AE%25A3%25DF2024%25A3%25DF01%25A3%25DF29_22%25A3%25DF49%25A3%25DF43.jpg&type=sc960_832",
+    "tags": [
+      "스카이캡슐",
+      "해안산책로",
+      "해운대",
+      "바다뷰"
+    ],
+    "activities": [
+      "스카이캡슐 이용",
+      "해안 산책",
+      "사진 촬영",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "1~3만원",
+    "contact": "+82-51-749-5700",
+    "website": "https://www.visitbusan.net",
+    "tips": "일몰 시간대가 가장 로맨틱해요. 스카이캡슐은 예약 필수. 바람이 강할 수 있으니 겉옷 준비."
+  },
+  {
+    "id": "sea002",
+    "title": "제주도 월정리해변",
+    "location": "제주특별자치도 제주시 구좌읍 월정리",
+    "description": "투명한 바다와 하얀 모래사장이 어우러진 제주 대표 해변. 특히 일몰 시간대의 황금빛 바다가 환상적이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA0MjRfNzQg%2FMDAxNTg3NjU1NDg1NDQ5.c61s_cUCCC5y8CP6StTAVV0--D64ZG0C1jE5A0E4i4Yg.dZ_rOACuR_Tnah9071AEnemjZ6HHUGxwYpw1iceEr6cg.JPEG.hlin0824%2Foutput_1526833358.jpg&type=sc960_832",
+    "tags": [
+      "투명바다",
+      "일몰",
+      "모래사장",
+      "제주"
+    ],
+    "activities": [
+      "해변 산책",
+      "일몰 감상",
+      "물놀이",
+      "사진 촬영"
+    ],
+    "bestSeason": "여름(6~9월)",
+    "difficulty": "쉬움",
+    "duration": "1~3시간",
+    "budget": "0~2만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "일몰 시간 1시간 전이 황금시간. 주변 카페에서 바다뷰 감상도 추천. 주차장 협소하니 평일 방문."
+  },
+  {
+    "id": "sea003",
+    "title": "여수 밤바다 야경",
+    "location": "전라남도 여수시 중앙동 여수세계박람회장 일대",
+    "description": "여수 밤바다의 환상적인 야경과 오동도가 어우러진 로맨틱한 바다 풍경. 야간 조명이 바다에 반사되어 더욱 아름다워요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAzMjVfMjkz%2FMDAxNjQ4MTY0Mjc2NzQ1.Sx5yfvgAwECdjzL9JrVs810M7PHretqaEOLrDprpyUcg.I0j8CkUwVe4hmCfP1wzwBpvHgU5yiAYc8T9zF60c6z4g.JPEG.lwy113%2F920A6667.jpg&type=sc960_832",
+    "tags": [
+      "야경",
+      "밤바다",
+      "오동도",
+      "로맨틱"
+    ],
+    "activities": [
+      "야경 감상",
+      "해변 산책",
+      "사진 촬영",
+      "로맨틱 데이트"
+    ],
+    "bestSeason": "사계절(야경은 연중)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~2만원",
+    "contact": "+82-61-690-2000",
+    "website": "https://www.yeosu.go.kr",
+    "tips": "일몰 후 30분~1시간이 황금시간. 삼각대 필수. 주변 여수 갈치 맛집도 놓치지 마세요."
+  },
+  {
+    "id": "sea004",
+    "title": "통영 미륵산 전망대",
+    "location": "경상남도 통영시 발산면 미륵산길 205",
+    "description": "남해의 아름다운 섬들과 바다를 한눈에 조망할 수 있는 전망대. 케이블카를 타고 올라가면 더욱 감성적인 바다 풍경을 만날 수 있어요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEwMTdfNTQg%2FMDAxNTM5Nzg2NTk3MTEw.DeZXFkFoMGfa9-xZ72rzU2p9OQ4lCAqBr1fjDSfMZx0g.wsiDjC20wba3u6ooKkerveA1pQ0O57Pzdywq9WOcw7Eg.JPEG.leyog009%2FIMGL9401.jpg&type=sc960_832",
+    "tags": [
+      "전망대",
+      "섬조망",
+      "케이블카",
+      "남해"
+    ],
+    "activities": [
+      "케이블카 이용",
+      "전망 감상",
+      "사진 촬영",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "1~2만원",
+    "contact": "+82-55-649-3000",
+    "website": "https://www.tongyeong.go.kr",
+    "tips": "맑은 날씨일 때 전망이 최고. 고소공포증 있으면 주의. 케이블카 운행시간 확인 필수."
+  },
+  {
+    "id": "sea005",
+    "title": "포항 호미곶 일출",
+    "location": "경상북도 포항시 남구 호미곶면 대보리",
+    "description": "한반도 최동단에서 맞는 일출. 상생의 손 조형물과 함께 찍는 일출 사진은 인생샷의 진수. 특히 새해 첫날에는 더욱 의미 있는 경험이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MjdfMTI3%2FMDAxNzI3NDE2MjgzMzQ2.aAvsiIR4kD0hK4KQb4k_A8H27VONFmXmOqDn1TY1ltkg.B5PG9LCk3PNOgduj1iQ2YOyiYEdnCMSbNwltZvB5K3Eg.JPEG%2F20200816%25A3%25DF052201.jpg&type=sc960_832",
+    "tags": [
+      "일출",
+      "상생의손",
+      "최동단",
+      "의미있는장소"
+    ],
+    "activities": [
+      "일출 감상",
+      "해안 산책",
+      "사진 촬영",
+      "의미있는체험"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-54-270-8000",
+    "website": "https://www.pohang.go.kr",
+    "tips": "일출 시간 30분 전 도착 추천. 새해 첫날은 특별한 의미. 바람이 강하니 방한복 준비."
+  },
+  {
+    "id": "sea006",
+    "title": "거제 바람의언덕",
+    "location": "경상남도 거제시 남부면 갈곶리",
+    "description": "바다 위로 뻗은 언덕에서 바람과 함께 즐기는 감성적인 바다 풍경. 특히 일몰 시간대의 황금빛 바다가 환상적이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MjhfOTMg%2FMDAxNTU4OTY5MzcwMzQ3.DhBZAbx4eVCGOBIK9WdITcPt1lxVClzN79YHS3DeYJAg.Iq3NZLq0IfETQFmg4Hn_m_J7uwnzX5T5_nEp5gWdm3wg.JPEG.ohzerust%2FrDJI_0669.jpg&type=sc960_832",
+    "tags": [
+      "바람의언덕",
+      "일몰",
+      "해안언덕",
+      "감성"
+    ],
+    "activities": [
+      "언덕 산책",
+      "일몰 감상",
+      "사진 촬영",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-55-639-2000",
+    "website": "https://www.geoje.go.kr",
+    "tips": "일몰 시간 1시간 전이 황금시간. 바람이 강할 수 있으니 겉옷 준비. 주차장 협소하니 평일 방문."
+  },
+  {
+    "id": "sea007",
+    "title": "강릉 정동진 해변",
+    "location": "강원특별자치도 강릉시 강동면 정동진리",
+    "description": "동해의 첫 일출을 볼 수 있는 해변. 바다와 함께하는 일출 힐링의 대표 명소로, 새벽 바다의 신비로운 풍경을 만날 수 있어요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMThfMjY0%2FMDAxNzI5MjQ5MDcxNzU5.AM2irdgNDxhzxQTFhOS22iQ5ULS58iCZHN30IjC_Gl4g.ysn_f3Gsog4jMIdhkW0Y0VFGG-t3kvTBuPSqGwxBZDEg.JPEG%2FIMG_2677.jpg&type=sc960_832",
+    "tags": [
+      "일출",
+      "동해첫일출",
+      "해변",
+      "신비로운풍경"
+    ],
+    "activities": [
+      "일출 감상",
+      "해변 산책",
+      "사진 촬영",
+      "새벽바다감상"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~2만원",
+    "contact": "+82-33-640-5114",
+    "website": "https://www.gangneung.go.kr",
+    "tips": "일출 시간 30분 전 도착 추천. 새벽 기온 낮으니 방한복 필수. 조용히 관찰하기."
+  },
+  {
+    "id": "sea008",
+    "title": "제주도 섭지코지",
+    "location": "제주특별자치도 서귀포시 성산읍 섭지코지길",
+    "description": "제주도의 숨은 보석 같은 해안 절벽. 투명한 바다와 검은 현무암이 만나는 드라마틱한 풍경. 특히 일몰 시간대가 황금시간이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MTNfMjYg%2FMDAxNzIzNTA1NzUwNzA4.fyQ1MPI61ps0jY4vD2PzU0trObke4wPr3KdLSLj3MgAg.dEk4JqE7mmIieruJzeWZMiIPbsbs3OBjP_Qt-1aoAYcg.JPEG%2F570A0138-2.jpg&type=sc960_832",
+    "tags": [
+      "해안절벽",
+      "현무암",
+      "일몰",
+      "드라마틱"
+    ],
+    "activities": [
+      "해안 산책",
+      "일몰 감상",
+      "사진 촬영",
+      "자연 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "일몰 시간 1시간 전 도착 추천. 바람이 강하니 방풍복 준비. 안전사고 주의하세요."
+  },
+  {
+    "id": "sea009",
+    "title": "부산 청사포 다릿돌전망대",
+    "location": "부산광역시 해운대구 청사포로 139",
+    "description": "청사포 해변의 다릿돌과 함께하는 감성적인 바다 전망. 특히 일몰 시간대의 황금빛 바다와 다릿돌의 조화가 아름다워요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5346%2F2017%2F07%2F12%2F0000079463_001_20170712224047706.jpg&type=sc960_832",
+    "tags": [
+      "다릿돌",
+      "일몰",
+      "해변전망",
+      "감성"
+    ],
+    "activities": [
+      "전망대 산책",
+      "일몰 감상",
+      "사진 촬영",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-51-749-5700",
+    "website": "https://www.visitbusan.net",
+    "tips": "일몰 시간 1시간 전이 황금시간. 다릿돌 위에서 촬영 시 안전 주의. 주차장 협소하니 평일 방문."
+  },
+  {
+    "id": "sea010",
+    "title": "제주도 우도",
+    "location": "제주특별자치도 제주시 우도면",
+    "description": "제주도 동쪽의 작은 섬 우도. 투명한 바다와 검은 현무암 해안이 어우러진 아름다운 풍경. 특히 우도봉에서 내려다보는 전망이 압권이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MzBfMTc1%2FMDAxNzE3MDIxNTE2NTk0.6F5666z4k6GXQS11QtAJMBIOv_wo4QKZzI_kC8_n2Dgg.gfU9vax64knzjPidl-94u9gNPdD3A0q5x0t3JhqTYJUg.JPEG%2FIMG_1918.jpg&type=sc960_832",
+    "tags": [
+      "섬",
+      "투명바다",
+      "현무암",
+      "우도봉"
+    ],
+    "activities": [
+      "섬 투어",
+      "해안 산책",
+      "사진 촬영",
+      "섬체험"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "하루",
+    "budget": "2~5만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "페리 시간표 미리 확인. 자전거 대여해서 섬 한 바퀴 도는 것 추천. 날씨 체크 필수."
+  },
+  {
+    "id": "sea011",
+    "title": "울산 대왕암공원",
+    "location": "울산광역시 동구 대왕암공원길 154",
+    "description": "바다와 현무암 절벽이 어우러진 해안 공원. 파도 소리와 함께하는 바다 힐링의 명소로, 특히 일몰 시간대가 아름다워요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA3MjVfMjcw%2FMDAxNzUzNDQ2MzYyMTA4.B_CYtHrt5H4ujl-BvQTmnUP4Ziv3_Xo4ZMp620tSim4g.UCnBi4htKVIqxVCvJrxbjiClrzwzD-JJbhOT0nxED9Ig.JPEG%2F25.07.21.%25C7%25E2%25C8%25AD%25B5%25B5%25C0%25CF%25B8%25F4-5.jpg&type=sc960_832",
+    "tags": [
+      "해안공원",
+      "현무암",
+      "파도소리",
+      "일몰"
+    ],
+    "activities": [
+      "해안 산책",
+      "일몰 감상",
+      "사진 촬영",
+      "자연 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-52-229-3147",
+    "website": "https://www.ulsan.go.kr",
+    "tips": "일몰 시간대가 가장 아름다워요. 바람이 강할 수 있으니 방한복 준비. 안전사고 주의."
+  },
+  {
+    "id": "sea012",
+    "title": "남해 금산 보리암",
+    "location": "경상남도 남해군 상주면 보리암로 665",
+    "description": "절벽 위 사찰과 바다 조망이 어우러지는 남해 대표 뷰포인트. 특히 일출·일몰 시간대의 바다 풍경이 환상적이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjBfMTIx%2FMDAxNjk1MTk1MzExODA3.UnJ11Af1wBAUg8eD9xop6u0JhNXU8gVByFz7h9jOhO4g.SVCWEPI1O-R3aY25fS-NNdLa89W2LIOVuXxAgtvSn64g.JPEG.ssoomm9937%2F20230905%25A3%25DF132139.jpg&type=sc960_832",
+    "tags": [
+      "사찰",
+      "바다뷰",
+      "일출일몰",
+      "절벽"
+    ],
+    "activities": [
+      "등산",
+      "사찰 관람",
+      "전망 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "2~3시간",
+    "budget": "0.1~2만원",
+    "contact": "+82-55-860-5800",
+    "website": "https://www.namhae.go.kr",
+    "tips": "주차장→보리암까지 산길 이동. 편한 신발 필수. 일출·일몰 타이밍 인기."
+  },
+  {
+    "id": "sea013",
+    "title": "제주도 김녕해수욕장",
+    "location": "제주특별자치도 제주시 구좌읍 구좌해안로 237",
+    "description": "에메랄드빛 바다와 하얀 모래, 풍차까지 담기는 대표 바다 포토 스폿. 특히 노을 시간대의 색감이 환상적이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA3MDFfMjQ3%2FMDAxNTkzNTgzODIyNjUz.kjQSO0nrUcFuYBhR8g0uhoM5TPaQnTEtVElg1U9kgAwg.o2vNRQ9ef6ZTv8PUUvqrUS1J-B8GY-zImT46H0-E_u4g.JPEG.dm3676%2F1593583820095.jpg&type=sc960_832",
+    "tags": [
+      "에메랄드바다",
+      "풍차",
+      "노을",
+      "포토스팟"
+    ],
+    "activities": [
+      "해변 산책",
+      "물놀이",
+      "노을 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "여름(6~9월)",
+    "difficulty": "쉬움",
+    "duration": "1~3시간",
+    "budget": "0~2만원",
+    "contact": "+82-64-728-3988",
+    "website": "https://www.visitjeju.net",
+    "tips": "노을 방향 고려해 서쪽 하늘 구름 많은 날 색감 좋음. 주변 카페에서 바다뷰 감상도 추천."
+  },
+  {
+    "id": "sea014",
+    "title": "사천 진널전망대",
+    "location": "경상남도 사천시 향촌동 신향2길 140",
+    "description": "바다 위로 뻗은 곡선형 데크 전망대. 일출·야간 조명 모두 사진 맛집으로, 특히 일출 시간대가 황금시간이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEwMTRfMTI0%2FMDAxNjk3MjQ3MzM3NTI3.7kEwIfIT_xAt2GBCKUMzEBr7ceguA1z1pE3i_6uc0GAg.LdbW-gxgGZiEHg8oVm1jaec-xvWnjm0Z7zCVdvCvq5wg.JPEG.bl85219%2FIMG%25A3%25DF20231011%25A3%25DF084816.jpg&type=sc960_832",
+    "tags": [
+      "전망대",
+      "일출",
+      "데크길",
+      "바다위"
+    ],
+    "activities": [
+      "전망대 산책",
+      "일출 감상",
+      "사진 촬영",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-55-832-7896",
+    "website": "https://www.toursacheon.net",
+    "tips": "일출 시간 30분 전 도착 추천. 남일대해수욕장과 연계 코스. 삼각대 사용 시 보행자 배려."
+  },
+  {
+    "id": "sea015",
+    "title": "거제 근포마을 해식동굴",
+    "location": "경상남도 거제시 남부면 저구리 423",
+    "description": "바다와 맞닿은 해식동굴 프레임으로 실루엣 인생샷을 남기기 좋은 포토 스폿. 특히 노을 시간대의 드라마틱한 풍경이 압권이에요.",
+    "category": "바다감성여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MTlfMTYw%2FMDAxNzUwMjc4NzAyMjQ4.jiPDWNK_IqgRt3XJWjWUIFeBFN9P_33PS8naeJpTgogg.hzO6hsocavxj0jtH225XApWEnPSkuoRtIQHnrwbeOCgg.JPEG%2Fimage_8fe43451.jpg&type=sc960_832",
+    "tags": [
+      "해식동굴",
+      "실루엣",
+      "노을",
+      "드라마틱"
+    ],
+    "activities": [
+      "해변 산책",
+      "실루엣 촬영",
+      "노을 감상",
+      "자연 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-55-639-2000",
+    "website": "https://www.geoje.go.kr",
+    "tips": "노을 시간대가 황금시간. 만조·간조 시간 확인. 비 온 뒤 얕은 물 웅덩이 반영 사진 가능."
+  }
+]

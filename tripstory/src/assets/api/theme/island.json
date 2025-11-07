@@ -1,0 +1,407 @@
+[
+  {
+    "id": "island001",
+    "title": "울릉도 독도",
+    "location": "경상북도 울릉군 울릉읍 독도리",
+    "description": "대한민국 최동단의 신비로운 섬. 울릉도에서 배로 1시간 30분 거리의 작은 섬으로, 독특한 지형과 청정한 자연이 매력적.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxOTA3MDJfMjc3%2FMDAxNTYyMDM1MzY0NjA3.mRpI2kyKTgbSpfWGSyHOsS2Y4lNyT8HGclJiJjGwv1Ug.y940mQkshGNaq-93U6xedy65H3OUrz7Ls6k16RobKocg.JPEG%2F1.jpg&type=sc960_832",
+    "tags": [
+      "독도",
+      "최동단",
+      "신비로운섬",
+      "청정자연"
+    ],
+    "activities": [
+      "섬 탐방",
+      "자연 관찰",
+      "사진 촬영",
+      "역사 학습"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "보통",
+    "duration": "당일치기",
+    "budget": "5~15만원",
+    "contact": "+82-54-790-6000",
+    "website": "https://www.ulleung.go.kr",
+    "tips": "날씨에 따라 출입 제한 가능. 사전 예약 필수. 울릉도에서 당일 왕복만 가능."
+  },
+  {
+    "id": "island002",
+    "title": "울릉도 나리분지",
+    "location": "경상북도 울릉군 서면 나리분지",
+    "description": "울릉도 내륙의 분지 지형. 울창한 숲과 계곡이 어우러진 신비로운 내륙 섬 경관을 만날 수 있는 특별한 장소.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA4MDVfODEg%2FMDAxNjI4MTY0NDYwODgx.xnwcRF2Hfmq5P8cUU83LEOHq-oCKDYxD7sLXqIoNUvkg.K93Q0ZRY8PekObfC2LE6cBv8JOx1QsaWsoGSPYhp9iog.JPEG.kimminsu6205%2F20210529_112751.jpg&type=sc960_832",
+    "tags": [
+      "나리분지",
+      "내륙섬",
+      "분지지형",
+      "신비로운경관"
+    ],
+    "activities": [
+      "분지 탐방",
+      "숲길 산책",
+      "자연 관찰",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "보통",
+    "duration": "반나절",
+    "budget": "2~5만원",
+    "contact": "+82-54-790-6000",
+    "website": "https://www.ulleung.go.kr",
+    "tips": "울릉도 내륙 탐방. 가이드 동반 추천. 날씨 체크 필수."
+  },
+  {
+    "id": "island003",
+    "title": "백령도",
+    "location": "인천광역시 옹진군 백령면",
+    "description": "서해 최북단의 신비로운 섬. 황해와 서해가 만나는 특수한 지리적 위치로 독특한 해안 경관과 청정한 자연을 자랑.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MjdfODYg%2FMDAxNzUwOTc3ODU0MjIx.4baEnCzGhdbLZiNPJK0_PHahwNuFBKNxcjR6dMYLVtsg.hst9hXSW8KmVhgKgS9hLIf8rbOda4yRnZFQUPsSYPT8g.JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5%25C6%25C4%25C0%25CF%25A3%25DF20250627%25A3%25DF073949.jpg&type=sc960_832",
+    "tags": [
+      "서해최북단",
+      "황해서해만남",
+      "독특한해안",
+      "청정자연"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해안 산책",
+      "자연 관찰",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "3~8만원",
+    "contact": "+82-32-899-2000",
+    "website": "https://www.ongjin.go.kr",
+    "tips": "인천에서 배로 2시간 30분. 사전 예약 필수. 날씨에 따라 운항 취소 가능."
+  },
+  {
+    "id": "island004",
+    "title": "대청도",
+    "location": "인천광역시 옹진군 대청면",
+    "description": "서해의 작은 보석 같은 섬. 맑은 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MjhfMjc1%2FMDAxNjU4OTY4NzQwMDM4.A_c3aK8HEdTA6ITsoMyzbnlT7gfAfHPzRF7prHw5_zIg.rqGRhks7KQg_GKCYF53CbfNMwu_gNpcYaeBY3YzLKosg.JPEG.hohosm%2F20220714_094511.jpg&type=sc960_832",
+    "tags": [
+      "서해보석",
+      "맑은바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-32-899-2000",
+    "website": "https://www.ongjin.go.kr",
+    "tips": "인천에서 배로 1시간 30분. 조용한 분위기로 힐링하기 좋아요."
+  },
+  {
+    "id": "island005",
+    "title": "소청도",
+    "location": "인천광역시 옹진군 소청면",
+    "description": "서해의 작은 청정 섬. 대청도와 함께 서해의 숨은 보석으로, 맑은 바다와 조용한 분위기가 매력적.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA0MDNfMTEx%2FMDAxNTIyNzY3MDQ2NDg1.bdCxKlXisldHDoV3EE7YLLg-SgO105czR5oEWY-OJe0g.oRhiLAPCFcHBbvGjLdozo2-twNLFB0nbVGx_sKq96kEg.PNG.seadjk%2F%25C4%25B8%25C3%25B32.PNG&type=sc960_832",
+    "tags": [
+      "서해청정섬",
+      "작은보석",
+      "맑은바다",
+      "조용한분위기"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-32-899-2000",
+    "website": "https://www.ongjin.go.kr",
+    "tips": "인천에서 배로 1시간 30분. 대청도와 함께 둘러보기 좋아요."
+  },
+  {
+    "id": "island006",
+    "title": "연평도",
+    "location": "인천광역시 옹진군 연평면",
+    "description": "서해 최북단의 작은 섬. 황해와 서해가 만나는 특수한 위치로 독특한 해안 경관과 조용한 분위기가 매력적.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MDRfMjUg%2FMDAxNzI1NDMyODQ2NTA3.7VTxZLyGmqWzW6eLIgKUILYwTOZPMgO3b12zFQjOcoog.pVZYk0fBoWkUv5nJrk1OdCRJeI-Qc46ijwmu4iQhqPcg.JPEG%2FKakaoTalk_20240904_144904132_04.jpg&type=sc960_832",
+    "tags": [
+      "서해최북단",
+      "황해서해만남",
+      "독특한해안",
+      "조용한분위기"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해안 산책",
+      "자연 관찰",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "3~8만원",
+    "contact": "+82-32-899-2000",
+    "website": "https://www.ongjin.go.kr",
+    "tips": "인천에서 배로 2시간. 사전 예약 필수. 날씨에 따라 운항 취소 가능."
+  },
+  {
+    "id": "island007",
+    "title": "가거도",
+    "location": "전라남도 완도군 가거도면",
+    "description": "전남 최남단의 신비로운 섬. 맑은 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA4MDlfMyAg%2FMDAxNTMzNzQxMzk1OTU2.6WQa1-q11UzBj_B3M6de6Y7IotasuxqkIwlnV3-wS1Ag.YN4pAvDnQ-3uCQcRdZW1lrVFUYmP52KA84wcqDLjzOwg.JPEG.1004_shinan%2F0810_%25BD%25C5%25BE%25C8%25BA%25ED%25B7%25CE%25B1%25D702.jpg&type=sc960_832",
+    "tags": [
+      "전남최남단",
+      "신비로운섬",
+      "맑은바다",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "3~8만원",
+    "contact": "+82-61-550-8000",
+    "website": "https://www.wando.go.kr",
+    "tips": "완도에서 배로 2시간. 사전 예약 필수. 날씨에 따라 운항 취소 가능."
+  },
+  {
+    "id": "island008",
+    "title": "흑산도",
+    "location": "전라남도 신안군 흑산면",
+    "description": "전남 서해의 작은 보석 같은 섬. 맑은 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA3MTJfMjI5%2FMDAxNzUyMjg3MTAwNzky.DaszClvzfmpDD5rxZMzviTAPKG0BxYKmKGPqNHj3cZog.aH7xsrykjuws8WN8xM4zhDJEyU81XFIU1Qf5CPDjrFUg.JPEG%2F900%25A3%25DF20250711%25A3%25DF093345.jpg&type=sc960_832",
+    "tags": [
+      "서해보석",
+      "맑은바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-61-240-8000",
+    "website": "https://www.shinan.go.kr",
+    "tips": "목포에서 배로 1시간 30분. 조용한 분위기로 힐링하기 좋아요."
+  },
+  {
+    "id": "island009",
+    "title": "홍도",
+    "location": "전라남도 신안군 흑산면 홍도리",
+    "description": "전남 서해의 작은 청정 섬. 맑은 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDExMjFfMTEw%2FMDAxNzMyMTU3OTg3Njc2.yfRNa9Pj1dXu-j4mIpggG7ZP-MDvAlRcKgQGXk60Vvog.3AHKm-qWJnbQ-fpq9effwO7tUB1uFilXyeGnn9jsYzkg.JPEG%2F453629683_3815192568764106_4468624502628301060_n.jpg&type=sc960_832",
+    "tags": [
+      "서해청정섬",
+      "작은보석",
+      "맑은바다",
+      "조용한분위기"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-61-240-8000",
+    "website": "https://www.shinan.go.kr",
+    "tips": "목포에서 배로 1시간 30분. 흑산도와 함께 둘러보기 좋아요."
+  },
+  {
+    "id": "island010",
+    "title": "가사도",
+    "location": "전라남도 신안군 가사도면",
+    "description": "전남 서해의 작은 보석 같은 섬. 맑은 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA5MjFfMjM1%2FMDAxNjYzNzE3Mzc0NDc1._YjgG-lVPFUcDd-cz3X1IVcHwq3b1fEyNNtLw6wTxP8g.xQTuoOnQh8DNZKfRKCkdstaH7sSQlq3pSIIKJdk9HRMg.JPEG.passionatesin14%2FIMG_7418.jpg&type=sc960_832",
+    "tags": [
+      "서해보석",
+      "맑은바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-61-240-8000",
+    "website": "https://www.shinan.go.kr",
+    "tips": "목포에서 배로 1시간 30분. 조용한 분위기로 힐링하기 좋아요."
+  },
+  {
+    "id": "island011",
+    "title": "비양도",
+    "location": "제주특별자치도 제주시 한림읍 비양도",
+    "description": "제주도 서쪽의 작은 보석 같은 섬. 투명한 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MTBfMjU3%2FMDAxNzIwNTk3NjMyNDQ1.7UdlcJeg00d3LZTAn33dJuuSsPQJ4Snqgv8noHuhTEAg.cpn8d6CT04mtUnIDl9S5bYVqm7v4Hbwst5EIxpSmi10g.PNG%2F1.png&type=sc960_832",
+    "tags": [
+      "제주서쪽보석",
+      "투명한바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "반나절",
+    "budget": "1~4만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "제주도에서 배로 30분. 조용한 분위기로 힐링하기 좋아요."
+  },
+  {
+    "id": "island012",
+    "title": "마라도",
+    "location": "제주특별자치도 서귀포시 대정읍 마라도",
+    "description": "제주도 최남단의 신비로운 섬. 투명한 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fak-d.tripcdn.com%2Fimages%2F1mi6b224x94q3prciDF7C_W_640_0_R5_Q80.jpg%3Fproc%3Dsource%2Ftrip&type=sc960_832",
+    "tags": [
+      "제주최남단",
+      "신비로운섬",
+      "투명한바다",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "보통",
+    "duration": "반나절",
+    "budget": "2~5만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "제주도에서 배로 1시간. 사전 예약 필수. 날씨에 따라 운항 취소 가능."
+  },
+  {
+    "id": "island013",
+    "title": "추자도",
+    "location": "제주특별자치도 제주시 추자면",
+    "description": "제주도 북쪽의 작은 보석 같은 섬. 투명한 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MDFfMTg2%2FMDAxNzQ4Nzc3NjMyOTU4.Ij5v42tzDXUnpNrP06VY7t-oPbwx51fdUzPP5BMXlncg.NFEKcvkTJYeTl5rP35uzhiriABFMF13ViiEn08729Ysg.JPEG%2F%25C1%25A6%25C1%25D6%25BF%25C3%25B7%25B9%25C3%25DF%25C0%25DA%25C4%25DA%25BD%25BA_62.jpg&type=sc960_832",
+    "tags": [
+      "제주북쪽보석",
+      "투명한바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "제주도에서 배로 1시간 30분. 조용한 분위기로 힐링하기 좋아요."
+  },
+  {
+    "id": "island014",
+    "title": "거제도 외도",
+    "location": "경상남도 거제시 일운면 외도",
+    "description": "거제도 동쪽의 작은 보석 같은 섬. 투명한 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20130815_205%2Ftpsprkftm_1376569755937q3kww_JPEG%2FIMG_1777.JPG&type=sc960_832",
+    "tags": [
+      "거제동쪽보석",
+      "투명한바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "반나절",
+    "budget": "1~4만원",
+    "contact": "+82-55-639-2000",
+    "website": "https://www.geoje.go.kr",
+    "tips": "거제도에서 배로 30분. 조용한 분위기로 힐링하기 좋아요."
+  },
+  {
+    "id": "island015",
+    "title": "통영 미륵도",
+    "location": "경상남도 통영시 미륵도",
+    "description": "통영 앞바다의 작은 보석 같은 섬. 투명한 바다와 아름다운 해안선, 그리고 조용한 분위기가 매력적인 힐링 섬.",
+    "category": "숨은 섬 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F047%2F2017%2F11%2F25%2F0002169708_014_20171125114915412.JPG&type=sc960_832",
+    "tags": [
+      "통영앞바다보석",
+      "투명한바다",
+      "아름다운해안",
+      "힐링섬"
+    ],
+    "activities": [
+      "섬 탐방",
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(4~10월)",
+    "difficulty": "쉬움",
+    "duration": "반나절",
+    "budget": "1~4만원",
+    "contact": "+82-55-649-3000",
+    "website": "https://www.tongyeong.go.kr",
+    "tips": "통영에서 배로 30분. 조용한 분위기로 힐링하기 좋아요."
+  }
+]

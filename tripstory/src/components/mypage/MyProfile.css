@@ -1,0 +1,249 @@
+/* MyProfile 카드 전체 */
+.myprofile-card {
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
+  padding: 40px 30px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(79, 195, 247, 0.2);
+  text-align: center;
+  border: 3px solid #BBDEFB;
+  /* ✅ 고정형 + 정렬 개선 */
+  position: fixed;
+  top: 100px;         /* 헤더보다 살짝 아래 */
+  left: clamp(40px, calc((100% - 1200px) / 2), 160px); 
+  /* 화면 크기에 맞춰 부드럽게 조정됨 */
+  width: 280px;
+  z-index: 5;
+  transition: all 0.3s ease;
+  border-radius: 24px;
+}
+
+main, .mypage-container, .mypage-wrapper {
+    overflow: visible !important;
+  }
+
+/* 닉네임 (상단 메인 타이틀) */
+.profile-nickname {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0277bd;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+}
+
+.myprofile-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 32px rgba(79, 195, 247, 0.3);
+}
+
+/* 프로필 사진 컨테이너 */
+.profile-image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* 프로필 사진 */
+.myprofile-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+}
+
+.myprofile-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(79, 195, 247, 0.4);
+}
+
+/* 온라인 상태 표시 (선택적) */
+.profile-image-wrapper::after {
+    content: '✓';
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* 닉네임 */
+.myprofile-card h2 {
+    font-size: 1.9em;
+    color: #0277BD;
+    margin: 15px 0 8px 0;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* 이메일 */
+.myprofile-card p {
+    color: #5C6BC0;
+    font-size: 0.95em;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+/* 구분선 */
+.myprofile-card hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #BBDEFB, transparent);
+    margin: 25px 0;
+}
+
+/* ===============================
+📍 추가 정보 (이메일 / 주소 / 권한)
+=============================== */
+.profile-info {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin: 25px 0;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(79, 195, 247, 0.1);
+  border: 1px solid rgba(187, 222, 251, 0.5);
+}
+
+/* 각 항목 컨테이너 */
+.profile-info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(200, 230, 255, 0.4);
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: #37474f;
+}
+
+.profile-info-item:last-child {
+  border-bottom: none;
+}
+
+/* 항목 제목 (왼쪽) */
+.profile-label {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #0277bd;
+  min-width: 80px;
+}
+
+.profile-label::before {
+  content: "🔑";
+  margin-right: 6px;
+  font-size: 1rem;
+}
+
+/* 항목 값 (오른쪽, 길이 제한) */
+.profile-value {
+  flex: 1;
+  text-align: left;
+  color: #455a64;
+  font-weight: 500;
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* =============================== */
+
+/* 버튼 그룹 */
+.myprofile-card .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+/* 공통 버튼 스타일 */
+.myprofile-card button {
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 버튼 호버 효과 */
+.myprofile-card button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.myprofile-card button:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* 정보 수정 버튼 */
+.myprofile-card button:first-child {
+    background: linear-gradient(135deg, #4FC3F7 0%, #29B6F6 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgba(79, 195, 247, 0.3);
+}
+
+.myprofile-card button:first-child:hover {
+    background: linear-gradient(135deg, #29B6F6 0%, #0288D1 100%);
+    box-shadow: 0 6px 16px rgba(79, 195, 247, 0.5);
+    transform: translateY(-2px);
+}
+
+/* 회원 탈퇴 버튼 */
+.myprofile-card button:last-child {
+    background-color: #FAFAFA;
+    color: #90A4AE;
+    border: 2px solid #E0E0E0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.myprofile-card button:last-child:hover {
+    color: #E57373;
+    border-color: #FFCDD2;
+    background: linear-gradient(135deg, #FFEBEE 0%, #FCE4EC 100%);
+    box-shadow: 0 4px 12px rgba(229, 115, 115, 0.2);
+    transform: translateY(-2px);
+}
+
+/* 💡 화면 크기에 따라 자동 조정 */
+@media (max-width: 1300px) {
+  .myprofile-card {
+    left: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .myprofile-card {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

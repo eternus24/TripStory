@@ -1,0 +1,407 @@
+[
+  {
+    "id": "food001",
+    "title": "전주 한옥마을 비빔밥",
+    "location": "전라북도 전주시 완산구 기린대로 99",
+    "description": "전주 비빔밥의 본고장. 전통 한옥에서 즐기는 정통 전주 비빔밥과 함께하는 문화 체험의 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMTdfODgg%2FMDAxNzAwMjI3MzA5MzU2.RcuCuQoHzlIeAlxqRDwZbfpPezT7mLjxK2VXKxVEMuUg.vAN9VRRwsnjF6Rc0NxlxRQsoTUVaW32aFoX0KGS9gBkg.JPEG.8150losnah%2FIMG_3436.JPG&type=sc960_832",
+    "tags": [
+      "비빔밥",
+      "전주",
+      "한옥마을",
+      "전통음식"
+    ],
+    "activities": [
+      "비빔밥 체험",
+      "한옥마을 투어",
+      "전통문화 체험",
+      "사진 촬영"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~4시간",
+    "budget": "1~5만원",
+    "contact": "+82-63-282-1330",
+    "website": "https://www.jeonju.go.kr",
+    "tips": "한복 대여해서 찍으면 더 멋져요. 주말은 인파 많으니 평일 추천. 맛집 예약 필수."
+  },
+  {
+    "id": "food002",
+    "title": "안동 간고등어",
+    "location": "경상북도 안동시 태화동 안동시청 근처",
+    "description": "안동의 대표 향토음식 간고등어. 매콤달콤한 양념과 함께하는 안동의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTExMDdfMjQ5%2FMDAxNjM2Mjg3NjI5OTgy.VO-4BRDgiRCxG-fpkeNRbc7ulg0lB6TzcH8rPtDvjGwg.KsqrL6mPz7WXb7WPITZ_0DLi06p8Im_NCbSxU9xNvO4g.JPEG.chat_aime%2F20211107%25A3%25DF145058.jpg&type=sc960_832",
+    "tags": [
+      "간고등어",
+      "안동",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "간고등어 체험",
+      "안동 시내 투어",
+      "전통문화 체험",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~6만원",
+    "contact": "+82-54-840-6974",
+    "website": "https://www.andong.go.kr",
+    "tips": "안동 소주와 함께하면 더 좋아요. 매운맛 조절 가능. 주변 하회마을도 함께 둘러보세요."
+  },
+  {
+    "id": "food003",
+    "title": "여수 갈치조림",
+    "location": "전라남도 여수시 중앙동 여수 갈치거리",
+    "description": "여수의 대표 향토음식 갈치조림. 신선한 갈치와 함께하는 여수만의 특별한 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MDNfMjA3%2FMDAxNzU2ODc1ODAyMzYy.f-LQPvJlO-Ze1Rz_Xds8THVg70SVNLqVJwfFUchA7f0g.1UbY1Ks9hMrJti_7Kfa-mJzbeD0NJUVKoZujhlqtVDgg.JPEG%2F%25BF%25A9%25BC%25F6%25B8%25C0%25C1%25FD_%25BF%25A9%25BC%25F6_%25B5%25B9%25BB%25EA%25B0%25D4%25C0%25E5%25B8%25ED%25B0%25A1_%252848%2529.jpg&type=sc960_832",
+    "tags": [
+      "갈치조림",
+      "여수",
+      "향토음식",
+      "신선한생선"
+    ],
+    "activities": [
+      "갈치조림 체험",
+      "여수 시내 투어",
+      "바다 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "3~8만원",
+    "contact": "+82-61-690-2000",
+    "website": "https://www.yeosu.go.kr",
+    "tips": "신선한 갈치가 핵심. 여수 밤바다 야경과 함께하면 더 좋아요. 예약 필수."
+  },
+  {
+    "id": "food004",
+    "title": "제주도 흑돼지",
+    "location": "제주특별자치도 제주시 연동 제주 흑돼지거리",
+    "description": "제주도의 대표 향토음식 흑돼지. 제주도만의 특별한 흑돼지와 함께하는 제주만의 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA3MjdfMzQg%2FMDAxNTMyNjcyNTMyNDg0.5Mm26lhnVcO6vrIP0OHpLw8O9bZDdE2kHf84zROIh5Ig.XPsXzQZCXjeuw9XEFivmV1bJW7V97hkyWU9pXA9BTMgg.JPEG.asteroid55%2F1532672531113.jpg&type=sc960_832",
+    "tags": [
+      "흑돼지",
+      "제주도",
+      "향토음식",
+      "특별한맛"
+    ],
+    "activities": [
+      "흑돼지 체험",
+      "제주 시내 투어",
+      "자연 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~4시간",
+    "budget": "3~10만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "제주도 특산품과 함께하면 더 좋아요. 주변 제주 자연 명소도 함께 둘러보세요."
+  },
+  {
+    "id": "food005",
+    "title": "부산 돼지국밥",
+    "location": "부산광역시 중구 중앙대로 부산 돼지국밥거리",
+    "description": "부산의 대표 향토음식 돼지국밥. 부산만의 특별한 돼지국밥과 함께하는 부산의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F082%2F2019%2F10%2F31%2F0000954062_001_20191104143555370.jpg&type=sc960_832",
+    "tags": [
+      "돼지국밥",
+      "부산",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "돼지국밥 체험",
+      "부산 시내 투어",
+      "바다 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "1~4만원",
+    "contact": "+82-51-749-5700",
+    "website": "https://www.visitbusan.net",
+    "tips": "부산의 바다 뷰와 함께하면 더 좋아요. 주변 해운대, 감천문화마을도 함께 둘러보세요."
+  },
+  {
+    "id": "food006",
+    "title": "대구 닭볶음탕",
+    "location": "대구광역시 중구 동성로 대구 닭볶음탕거리",
+    "description": "대구의 대표 향토음식 닭볶음탕. 대구만의 특별한 닭볶음탕과 함께하는 대구의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMDJfNjIg%2FMDAxNjM4NDM4Mjc5MzM4.Wmmx9ggI5zBpv9vsWzave3lkaNpHgz7x1q4viFX9u5cg.LQXE_mXkNCDKU6gztODerN4fKtgvyuzGmkvxqCGt0aAg.JPEG.lvnnn%2FIMG_4813.JPG&type=sc960_832",
+    "tags": [
+      "닭볶음탕",
+      "대구",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "닭볶음탕 체험",
+      "대구 시내 투어",
+      "문화 체험",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~5만원",
+    "contact": "+82-53-666-3000",
+    "website": "https://tour.daegu.go.kr",
+    "tips": "대구의 문화 유적과 함께하면 더 좋아요. 주변 팔공산, 수성못도 함께 둘러보세요."
+  },
+  {
+    "id": "food007",
+    "title": "광주 오리탕",
+    "location": "광주광역시 동구 중앙로 광주 오리탕거리",
+    "description": "광주의 대표 향토음식 오리탕. 광주만의 특별한 오리탕과 함께하는 광주의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEyMTNfMTMg%2FMDAxNjcwOTM4MDAzNzE5.OyB7LLDawzlnN86PlYm5dGtPj0ar69zymO0GaZmSsiMg.0bYatAcB0Qma_IJcd7BfPQVoADPqabMRnYVhvByyJ9Ig.JPEG.js7509%2F20221126%25A3%25DF171411.jpg&type=sc960_832",
+    "tags": [
+      "오리탕",
+      "광주",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "오리탕 체험",
+      "광주 시내 투어",
+      "문화 체험",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~6만원",
+    "contact": "+82-62-120",
+    "website": "https://www.gwangju.go.kr",
+    "tips": "광주의 문화 유적과 함께하면 더 좋아요. 주변 무등산, 국립아시아문화전당도 함께 둘러보세요."
+  },
+  {
+    "id": "food008",
+    "title": "강릉 초당순두부",
+    "location": "강원특별자치도 강릉시 초당동 강릉 초당순두부거리",
+    "description": "강릉의 대표 향토음식 초당순두부. 강릉만의 특별한 초당순두부와 함께하는 강릉의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20140830_195%2Fmillizine_1409407116671dyzfk_JPEG%2Fimage.jpg&type=sc960_832",
+    "tags": [
+      "초당순두부",
+      "강릉",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "초당순두부 체험",
+      "강릉 시내 투어",
+      "바다 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "1~4만원",
+    "contact": "+82-33-640-5114",
+    "website": "https://www.gangneung.go.kr",
+    "tips": "강릉의 바다 뷰와 함께하면 더 좋아요. 주변 정동진, 안목해변도 함께 둘러보세요."
+  },
+  {
+    "id": "food009",
+    "title": "춘천 닭갈비",
+    "location": "강원특별자치도 춘천시 중앙로 춘천 닭갈비거리",
+    "description": "춘천의 대표 향토음식 닭갈비. 춘천만의 특별한 닭갈비와 함께하는 춘천의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MTZfMTk4%2FMDAxNzU3OTk1MjU2MjM3.4wNKmwBv_Wh1AwlIMulykltLQMN_zZaNsjyMCrh20asg.1SID7JcWSek0SixjdyPLr8ZQWPvyNcSEYsukb4njQzEg.JPEG%2Foutput%25A3%25DF2451759767.jpg&type=sc960_832",
+    "tags": [
+      "닭갈비",
+      "춘천",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "닭갈비 체험",
+      "춘천 시내 투어",
+      "자연 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~5만원",
+    "contact": "+82-33-250-3000",
+    "website": "https://www.chuncheon.go.kr",
+    "tips": "춘천의 자연 경관과 함께하면 더 좋아요. 주변 남이섬, 소양호도 함께 둘러보세요."
+  },
+  {
+    "id": "food010",
+    "title": "원주 헛제사밥",
+    "location": "강원특별자치도 원주시 중앙로 원주 헛제사밥거리",
+    "description": "원주의 대표 향토음식 헛제사밥. 원주만의 특별한 헛제사밥과 함께하는 원주의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAxMDNfMjgw%2FMDAxNjcyNzMyODE0NDY3.oUS-4hq09rORdX1pBA5jsuMBENkjunv6hvTiY8HnKNEg.EWiPzxtcvo8C9pBqknT0p1jwGdkChy8996awxKSzDoYg.JPEG.flower4653%2F20221227_124050.JPG&type=sc960_832",
+    "tags": [
+      "헛제사밥",
+      "원주",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "헛제사밥 체험",
+      "원주 시내 투어",
+      "문화 체험",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "1~4만원",
+    "contact": "+82-33-737-3000",
+    "website": "https://www.wonju.go.kr",
+    "tips": "원주의 문화 유적과 함께하면 더 좋아요. 주변 치악산, 원주한지테마파크도 함께 둘러보세요."
+  },
+  {
+    "id": "food011",
+    "title": "순천 전복죽",
+    "location": "전라남도 순천시 조례동 순천 전복죽거리",
+    "description": "순천의 대표 향토음식 전복죽. 순천만의 특별한 전복죽과 함께하는 순천의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MDZfMTY1%2FMDAxNjU5NzgyMDk5NDM3.6k9cG63wlLURBu6UWfD8xXhMzPSmFyrbUBdxVQ5YJC4g.xsqVQwvQJ6-xAz0D8bbRP-8rd8mnGdXTsMti0iGfq9Eg.JPEG.skdus989%2FIMG_5388.jpg&type=sc960_832",
+    "tags": [
+      "전복죽",
+      "순천",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "전복죽 체험",
+      "순천 시내 투어",
+      "자연 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~6만원",
+    "contact": "+82-61-749-3000",
+    "website": "https://www.suncheon.go.kr",
+    "tips": "순천만 습지와 함께하면 더 좋아요. 주변 순천만국가정원도 함께 둘러보세요."
+  },
+  {
+    "id": "food012",
+    "title": "목포 꽃게탕",
+    "location": "전라남도 목포시 해안동 목포 꽃게탕거리",
+    "description": "목포의 대표 향토음식 꽃게탕. 목포만의 특별한 꽃게탕과 함께하는 목포의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA3MjRfNzMg%2FMDAxNzUzMzU4MTAzMDgz.No-fSQhkbdqw2fsLXVflJQQIAisA8HD_wGjKjkgFYVwg.t5NWMmjWfEQv69tDIHdb1qn5ULzsbg8zb4X_omD4MpYg.JPEG%2FIMG%25A3%25DF0398.JPG&type=sc960_832",
+    "tags": [
+      "꽃게탕",
+      "목포",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "꽃게탕 체험",
+      "목포 시내 투어",
+      "바다 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~6만원",
+    "contact": "+82-61-270-3000",
+    "website": "https://www.mokpo.go.kr",
+    "tips": "목포의 바다 뷰와 함께하면 더 좋아요. 주변 유달산, 목포해상케이블카도 함께 둘러보세요."
+  },
+  {
+    "id": "food013",
+    "title": "진주 비빔밥",
+    "location": "경상남도 진주시 중안동 진주 비빔밥거리",
+    "description": "진주의 대표 향토음식 비빔밥. 진주만의 특별한 비빔밥과 함께하는 진주의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjBfODEg%2FMDAxNzA1Njc4NDc3MzQ0.ITwu6x0ke6G7r5AdXDRZGlSMjJdnNqW54_qBHzbWz0Yg.NxElsmFJ-SKcseWOObs5qzTKG-YupVusFs6hs3T_b0wg.JPEG.pkijj04%2FIMG_5534.jpg&type=sc960_832",
+    "tags": [
+      "비빔밥",
+      "진주",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "비빔밥 체험",
+      "진주 시내 투어",
+      "문화 체험",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "1~4만원",
+    "contact": "+82-55-749-2000",
+    "website": "https://www.jinju.go.kr",
+    "tips": "진주의 문화 유적과 함께하면 더 좋아요. 주변 진주성, 남강도 함께 둘러보세요."
+  },
+  {
+    "id": "food014",
+    "title": "통영 멍게비빔밥",
+    "location": "경상남도 통영시 중앙동 통영 멍게비빔밥거리",
+    "description": "통영의 대표 향토음식 멍게비빔밥. 통영만의 특별한 멍게비빔밥과 함께하는 통영의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA2MDhfMjUx%2FMDAxNTU5OTY2NjU4Nzgy.fJJy7yohM0PWAfQHC1U5Ak7Ntm79p7045CIe5I0OjYcg.0c0N8Nll1VqrpkG_bh3VbTUQxq5Dlfj5KuZNwMFdyuwg.JPEG.angela1021%2F20190608_112542.jpg&type=sc960_832",
+    "tags": [
+      "멍게비빔밥",
+      "통영",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "멍게비빔밥 체험",
+      "통영 시내 투어",
+      "바다 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "2~6만원",
+    "contact": "+82-55-649-3000",
+    "website": "https://www.tongyeong.go.kr",
+    "tips": "통영의 바다 뷰와 함께하면 더 좋아요. 주변 미륵산, 통영케이블카도 함께 둘러보세요."
+  },
+  {
+    "id": "food015",
+    "title": "거제 전복구이",
+    "location": "경상남도 거제시 장목면 거제 전복구이거리",
+    "description": "거제의 대표 향토음식 전복구이. 거제만의 특별한 전복구이와 함께하는 거제의 전통 맛을 경험할 수 있는 명소.",
+    "category": "로컬맛집 탐방여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA0MTZfMzgg%2FMDAxNzEzMjIyODc1NDAz.5loouyLBUxCeHIHiZ93ZAliL-YWnYPu5IyhV8HO2qr4g.rLkzuspMCs7P88EY79VXFyu4qRNSgk2LAGTu8OKI7h0g.JPEG%2F14%25C0%25FC%25BA%25B9%25B9%25F6%25C5%25CD%25B1%25B8%25C0%25CC.JPG&type=sc960_832",
+    "tags": [
+      "전복구이",
+      "거제",
+      "향토음식",
+      "전통맛"
+    ],
+    "activities": [
+      "전복구이 체험",
+      "거제 시내 투어",
+      "바다 감상",
+      "맛집 탐방"
+    ],
+    "bestSeason": "사계절",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "3~8만원",
+    "contact": "+82-55-639-2000",
+    "website": "https://www.geoje.go.kr",
+    "tips": "거제의 바다 뷰와 함께하면 더 좋아요. 주변 바람의언덕, 근포마을도 함께 둘러보세요."
+  }
+]

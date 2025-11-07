@@ -1,0 +1,110 @@
+/* src/components/Auth/Register.css */
+
+.reg-wrap {
+  width: 100%;
+  max-width: 500px;            /* ✅ 기존보다 넓게 (360 → 500) */
+  margin: 4rem auto;
+  padding: 2.5rem 3rem;
+  border-radius: 1.2rem;
+  background: #ffffffc9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: "Pretendard", sans-serif;
+}
+
+.reg-title {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #003d6b;
+  margin-bottom: 1.8rem;
+  text-align: center;
+}
+
+.label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1.1rem;
+  border: 1.4px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+.input:focus {
+  border-color: #26c6da;
+  box-shadow: 0 0 0 3px rgba(38, 198, 218, 0.15);
+  outline: none;
+}
+
+.input.is-invalid {
+  border-color: #e57373;
+  background-color: #fff8f8;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #1a73e8, #26c6da);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: linear-gradient(90deg, #0c5cd3, #22bcd0);
+  transform: translateY(-2px);
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.msg {
+  margin-top: 1rem;
+  text-align: center;
+  color: #00796b;
+  font-weight: 600;
+}
+
+.sub {
+  margin-top: 1.2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.sub a {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: #e57373;
+  margin-top: -0.6rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+/* 반응형 - 모바일에서는 다시 줄이기 */
+@media (max-width: 480px) {
+  .reg-wrap {
+    max-width: 90%;
+    padding: 2rem 1.5rem;
+  }
+}

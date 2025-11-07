@@ -1,0 +1,655 @@
+/* 관리자 승인 페이지 스타일 */
+.admin-approval-container {
+  width: min(1200px, 95%);
+  margin: 0 auto;
+  padding: 24px;
+  background: #f8fbff;
+  min-height: 100vh;
+}
+
+.approval-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e6eef7;
+}
+
+.approval-title {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #2a3958;
+}
+
+.approval-badge {
+  background: linear-gradient(135deg, #26d0ce 0%, #1fb5b3 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(38, 208, 206, 0.3);
+}
+
+/* 승인 대기 그리드 */
+.approval-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* ============ 수정: 승인 대기 카드 (선택 효과 제거, 클릭으로 모달) ============ */
+.approval-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  border: 2px solid #e6eef7;
+  box-shadow: 0 4px 16px rgba(31, 64, 135, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.approval-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(180deg, #26d0ce 0%, #1fb5b3 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.approval-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(31, 64, 135, 0.15);
+  border-color: #26d0ce;
+}
+
+.approval-card:hover::before {
+  opacity: 1;
+}
+
+/* 카드 헤더 */
+.approval-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.approval-user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #6b7a90;
+  font-weight: 600;
+}
+
+.approval-date {
+  font-size: 12px;
+  color: #9e9e9e;
+}
+
+/* 지역 태그 */
+.approval-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #1976d2;
+  margin-bottom: 12px;
+}
+
+/* 제목 */
+.approval-card-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #2a3958;
+  margin: 12px 0;
+  line-height: 1.4;
+  word-break: keep-all;
+}
+
+/* 내용 */
+.approval-content {
+  color: #666;
+  font-size: 0.95em;
+  line-height: 1.6;
+  margin: 12px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.approval-content-full {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.7;
+  margin: 15px 0;
+  padding: 15px;
+  background: rgba(38, 208, 206, 0.05);
+  border-radius: 10px;
+  border-left: 4px solid #26d0ce;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* 해시태그 */
+.approval-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.approval-hashtag {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  color: #1976d2;
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+
+/* 증빙자료 섹션 */
+.approval-proof-section {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #e6eef7;
+}
+
+.approval-proof-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: #2a3958;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.approval-proof-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 12px;
+  border: 2px solid #e6eef7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.approval-proof-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* 액션 버튼 */
+.approval-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #e6eef7;
+}
+
+.btn-approve,
+.btn-reject {
+  flex: 1;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.btn-approve {
+  background: linear-gradient(135deg, #26d0ce 0%, #1fb5b3 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(38, 208, 206, 0.3);
+}
+
+.btn-approve:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(38, 208, 206, 0.4);
+  background: linear-gradient(135deg, #1fb5b3 0%, #1a9e9c 100%);
+}
+
+.btn-reject {
+  background: linear-gradient(135deg, #ffebee 0%, #ffffff 100%);
+  color: #f44336;
+  border: 2px solid #ffcdd2;
+}
+
+.btn-reject:hover {
+  background: linear-gradient(135deg, #f44336 0%, #e53935 100%);
+  color: white;
+  border-color: #f44336;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+}
+
+/* 빈 상태 */
+.approval-empty {
+  text-align: center;
+  padding: 80px 20px;
+  background: white;
+  border: 2px dashed #e6eef7;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.approval-empty-icon {
+  font-size: 4em;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.approval-empty-text {
+  color: #757575;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* 이미지 확대 모달 */
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  backdrop-filter: blur(4px);
+  padding: 20px;
+}
+
+.image-modal-content {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.image-modal-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.image-modal-close:hover {
+  background: white;
+  transform: rotate(90deg);
+}
+
+/* 거부 사유 모달 */
+.reject-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.reject-modal-content {
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: modalSlideUp 0.3s ease;
+}
+
+@keyframes modalSlideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.reject-modal-header {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #2a3958;
+  margin-bottom: 20px;
+}
+
+.reject-modal-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.reject-modal-textarea:focus {
+  border-color: #f44336;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.15);
+}
+
+.reject-modal-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.reject-modal-actions button {
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 24px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-reject-confirm {
+  background: linear-gradient(135deg, #f44336 0%, #e53935 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+}
+
+.btn-reject-confirm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(244, 67, 54, 0.4);
+}
+
+.btn-reject-cancel {
+  background: #f5f5f5;
+  color: #757575;
+  border: 2px solid #e0e0e0;
+}
+
+.btn-reject-cancel:hover {
+  background: #eeeeee;
+  border-color: #bdbdbd;
+  color: #424242;
+}
+
+/* ============ 🆕 추가: 승인 상세보기 모달 스타일 ============ */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1500;
+  backdrop-filter: blur(4px);
+}
+
+.approval-detail-modal-content {
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 700px;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: modalSlideUp 0.3s ease;
+}
+
+.approval-detail-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+  border-bottom: 2px solid #e6eef7;
+  background: linear-gradient(135deg, #e3f2fd 0%, #ffffff 100%);
+  border-radius: 20px 20px 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.approval-detail-modal-header h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #1976d2;
+  margin: 0;
+}
+
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: #9e9e9e;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  line-height: 1;
+}
+
+.modal-close:hover {
+  background: rgba(38, 208, 206, 0.1);
+  color: #26d0ce;
+  transform: rotate(90deg);
+}
+
+.approval-detail-modal-body {
+  padding: 30px;
+}
+
+.approval-detail-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: linear-gradient(135deg, #f8fbff 0%, #ffffff 100%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e6eef7;
+}
+
+.user-icon {
+  font-size: 1.3em;
+}
+
+.user-id {
+  font-weight: 700;
+  color: #2a3958;
+  font-size: 15px;
+}
+
+.submit-date {
+  margin-left: auto;
+  font-size: 13px;
+  color: #9e9e9e;
+}
+
+.approval-detail-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1976d2;
+  margin-bottom: 15px;
+}
+
+.approval-detail-title {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #2a3958;
+  margin: 15px 0;
+  line-height: 1.4;
+  word-break: keep-all;
+}
+
+.approval-detail-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #757575;
+  font-size: 1em;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.approval-detail-content {
+  margin: 25px 0;
+  padding: 20px;
+  background: rgba(38, 208, 206, 0.05);
+  border-radius: 12px;
+  border-left: 4px solid #26d0ce;
+}
+
+.approval-detail-content h4 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #1976d2;
+  margin: 0 0 12px 0;
+}
+
+.approval-detail-content p {
+  color: #444;
+  font-size: 1em;
+  line-height: 1.7;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.approval-detail-hashtags {
+  margin: 25px 0;
+}
+
+.approval-detail-hashtags h4 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #1976d2;
+  margin: 0 0 12px 0;
+}
+
+.approval-detail-proof-section {
+  margin: 25px 0;
+  padding: 20px;
+  background: #f8fbff;
+  border-radius: 12px;
+  border: 2px solid #e6eef7;
+}
+
+.approval-detail-proof-section h4 {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #1976d2;
+  margin: 0 0 15px 0;
+}
+
+.approval-detail-proof-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 2px solid #e6eef7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.approval-detail-proof-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.approval-detail-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #e6eef7;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .approval-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .approval-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .approval-detail-modal-content {
+    width: 95%;
+    max-height: 90vh;
+  }
+
+  .approval-detail-modal-body {
+    padding: 20px;
+  }
+}

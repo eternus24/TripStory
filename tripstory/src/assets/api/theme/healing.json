@@ -1,0 +1,407 @@
+[
+  {
+    "id": "heal001",
+    "title": "순천만 습지 생태탐방",
+    "location": "전라남도 순천시 순천만길 513-25",
+    "description": "갈대밭과 염생식물이 어우러진 생태 습지. 물새와 함께하는 조용한 자연 관찰과 힐링 산책의 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20121209_181%2Fblueazrael_1354979798048bOuYe_JPEG%2F00.jpg&type=sc960_832",
+    "tags": [
+      "습지",
+      "갈대밭",
+      "생태탐방",
+      "물새"
+    ],
+    "activities": [
+      "습지 산책",
+      "생태 관찰",
+      "사진 촬영",
+      "자연 체험"
+    ],
+    "bestSeason": "가을 갈대 시즌(10~11월)",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "0.5~2만원",
+    "contact": "+82-61-749-3000",
+    "website": "https://www.suncheonbay.go.kr",
+    "tips": "이른 아침이나 늦은 오후가 물새 관찰 최적. 쌍안경 준비하면 더 좋아요. 조용히 관찰하기."
+  },
+  {
+    "id": "heal002",
+    "title": "보성 녹차밭 힐링",
+    "location": "전라남도 보성군 보성읍 녹차로 763-67",
+    "description": "언덕을 따라 펼쳐진 무궁무진한 녹차밭. 차향과 함께하는 자연 힐링과 차 체험의 대표 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA4MjlfNzQg%2FMDAxNzU2NDc5MjE1MDM0.dMdokCY_Osdv7iah5bCSM-EBpx9rgilgeoOcJVUyTXIg.o1I_kW7vrCk-ljeS3nJlQrf85EyhxUBlEBd9VKXdeowg.PNG%2F2025_%25BA%25B8%25BC%25BA_%25B3%25EC%25C2%25F7%25B9%25E7_%25C0%25FC%25B3%25B2_%25BA%25B8%25BC%25BA.png&type=sc960_832",
+    "tags": [
+      "녹차밭",
+      "차체험",
+      "언덕",
+      "자연"
+    ],
+    "activities": [
+      "녹차밭 산책",
+      "차 체험",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄 신차 시즌(4~5월)",
+    "difficulty": "쉬움",
+    "duration": "2~4시간",
+    "budget": "1~5만원",
+    "contact": "+82-61-850-5000",
+    "website": "https://www.boseong.go.kr",
+    "tips": "봄 신차 시즌이 가장 아름다워요. 차 체험 프로그램 사전 예약 추천. 편한 신발 필수."
+  },
+  {
+    "id": "heal003",
+    "title": "울산 대왕암공원",
+    "location": "울산광역시 동구 대왕암공원길 154",
+    "description": "바다와 현무암 절벽이 어우러진 해안 공원. 파도 소리와 함께하는 바다 힐링의 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA3MTJfMTQw%2FMDAxNzIwNzk0NTc2NTM3.RwxKeYf541didqq7b3qea6-J11Y7q5LDPhBW1oR4ORUg.idz0lcA4DBkjeZkNdvKzXFTd3WOou0XMBoqqYivJmxgg.JPEG%2F%25BF%25EF%25BB%25EA_%25B4%25EB%25BF%25D5%25BE%25CF%25B0%25F8%25BF%25F8_%252812%2529.jpg&type=sc960_832",
+    "tags": [
+      "해안공원",
+      "현무암",
+      "파도소리",
+      "바다뷰"
+    ],
+    "activities": [
+      "해안 산책",
+      "자연 감상",
+      "사진 촬영",
+      "명상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-52-229-3147",
+    "website": "https://www.ulsan.go.kr",
+    "tips": "일몰 시간대가 가장 아름다워요. 바람이 강할 수 있으니 방한복 준비. 안전사고 주의."
+  },
+  {
+    "id": "heal004",
+    "title": "화천 힐링",
+    "location": "강원특별자치도 화천군 화천읍 중앙로 137",
+    "description": "청정한 화천강과 주변 산림이 어우러진 자연 환경. 산천어와 함께하는 물가 힐링 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODEwMjVfNzcg%2FMDAxNTQwMzkzNTA0OTU5.0WXgDh9rKMecLUsXs6DnebOpqyjDK2tcgsIzrSb_IVcg.ddmUS2WSEShItH7t360VuMBVbSpsIgCRcFtstyrKQzEg.JPEG.hong273526%2FIMGL0499-%25C6%25ED%25C1%25FD.jpg&type=sc960_832",
+    "tags": [
+      "청정강",
+      "산천어",
+      "물가",
+      "자연"
+    ],
+    "activities": [
+      "강변 산책",
+      "자연 관찰",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~3시간",
+    "budget": "0~2만원",
+    "contact": "+82-33-440-2000",
+    "website": "https://www.ihc.go.kr",
+    "tips": "축제 기간(1월) 외에도 평상시 자연 관찰 가능. 추운 계절 방한복 필수."
+  },
+  {
+    "id": "heal005",
+    "title": "거제 외도 보타니아",
+    "location": "경상남도 거제시 일운면 외도보타니아길 17",
+    "description": "섬 전체가 식물원인 아름다운 정원. 다양한 꽃과 나무 사이를 걸으며 자연 힐링을 즐길 수 있어요.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMDhfMjE5%2FMDAxNzI4Mzk4NTQyMjU5.-pOTUvRPbkbvz81_8R-vUBkqeRiQ79VjZ5K8BICaOxEg.c2AegpsPA92URTxFxRm7Yh_OM_pVrxUcN_uToEiKT_kg.JPEG%2F20241005%25A3%25DF111506.jpg&type=sc960_832",
+    "tags": [
+      "식물원",
+      "섬정원",
+      "꽃",
+      "자연"
+    ],
+    "activities": [
+      "정원 산책",
+      "식물 관찰",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄 꽃 시즌(4~5월)",
+    "difficulty": "쉬움",
+    "duration": "2~3시간",
+    "budget": "1~3만원",
+    "contact": "+82-55-632-0111",
+    "website": "https://www.oedobotania.com",
+    "tips": "봄 꽃 시즌이 가장 아름다워요. 페리 시간표 확인 필수. 편한 신발 권장."
+  },
+  {
+    "id": "heal006",
+    "title": "평창 용평리솔밭",
+    "location": "강원특별자치도 평창군 진부면 용평리",
+    "description": "고산지대의 울창한 솔밭. 솔향과 함께하는 산림욕과 자연 힐링의 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MzBfMTI0%2FMDAxNjIyMzgzMTc0MzI0.MrA12R-zmppwQjuYeVIaXCIXMSHmjZ_LNbmro_I3bN0g.oOZEtL-nlWKp4HTsHiNeeydckMaRgKuT2fWhGj-OHCQg.JPEG.jyun1533%2FIMG_4326.jpg&type=sc960_832",
+    "tags": [
+      "솔밭",
+      "산림욕",
+      "고산지대",
+      "자연"
+    ],
+    "activities": [
+      "솔밭 산책",
+      "산림욕",
+      "자연 감상",
+      "힐링"
+    ],
+    "bestSeason": "여름 피톤치드·가을 단풍",
+    "difficulty": "보통",
+    "duration": "2~3시간",
+    "budget": "0~1만원",
+    "contact": "+82-33-330-2000",
+    "website": "https://www.pc.go.kr",
+    "tips": "여름 피톤치드가 풍부해요. 고산지대라 기온 변화 크니 겉옷 준비. 조용히 관찰하기."
+  },
+  {
+    "id": "heal007",
+    "title": "안동 하회마을 자연마당",
+    "location": "경상북도 안동시 풍천면 하회종가길 40",
+    "description": "낙동강이 감싸고 도는 한옥마을. 전통 건축과 자연이 어우러진 조용한 힐링 공간.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMDNfMjkg%2FMDAxNjY0NzI2NTk1NTcw.c4sBPPYB1NxUWqobClFUWVTxF1KIM2yjH8czGHzf52og.PrCnnp_LLG9nZ6qxVuyoZpPIhd_ypOZYlWBO6bcmywwg.JPEG.95sulbee%2FIMG_5917.jpg&type=sc960_832",
+    "tags": [
+      "한옥마을",
+      "낙동강",
+      "전통",
+      "자연"
+    ],
+    "activities": [
+      "마을 산책",
+      "자연 감상",
+      "전통 체험",
+      "힐링"
+    ],
+    "bestSeason": "가을 단풍(10~11월)",
+    "difficulty": "쉬움",
+    "duration": "2~4시간",
+    "budget": "1~3만원",
+    "contact": "+82-54-840-6974",
+    "website": "https://www.andong.go.kr",
+    "tips": "가을 단풍 시즌이 가장 아름다워요. 주민 생활공간 배려. 조용히 관찰하기."
+  },
+  {
+    "id": "heal008",
+    "title": "통영 미륵산 케이블카",
+    "location": "경상남도 통영시 발산면 미륵산길 205",
+    "description": "남해의 아름다운 섬들과 바다를 한눈에 조망할 수 있는 케이블카. 자연 경관과 함께하는 힐링 여행.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MTZfMjY5%2FMDAxNzU4MDAwMDk1MTY5.Z9PemlBBAWg3ciBky1sNcWw6fycHyc_7mY0I6gbAIVYg.XPRj3QEHob0L6eYU99Eop9MjjTs1HVN4TXE7UhExRmgg.JPEG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.jpg&type=sc960_832",
+    "tags": [
+      "케이블카",
+      "바다뷰",
+      "섬조망",
+      "자연"
+    ],
+    "activities": [
+      "케이블카 이용",
+      "전망 감상",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "1~2만원",
+    "contact": "+82-55-649-3000",
+    "website": "https://www.tongyeong.go.kr",
+    "tips": "날씨가 맑을 때가 전망이 좋아요. 고소공포증 있으면 주의. 케이블카 운행시간 확인."
+  },
+  {
+    "id": "heal009",
+    "title": "제주도 비자림",
+    "location": "제주특별자치도 제주시 구좌읍 비자림로 760",
+    "description": "천연기념물 비자나무 숲. 울창한 녹음과 함께하는 신비로운 자연 힐링 공간.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20130927_39%2Fheoderi_1380272022057g2cgb_JPEG%2F%25C7%25B3%25B0%25E6.jpg&type=sc960_832",
+    "tags": [
+      "비자나무",
+      "천연기념물",
+      "숲길",
+      "자연"
+    ],
+    "activities": [
+      "숲길 산책",
+      "자연 관찰",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "여름 녹음·가을 단풍",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "여름 녹음이 가장 아름다워요. 천연기념물 보호구역이니 조용히 관찰하기."
+  },
+  {
+    "id": "heal010",
+    "title": "영월 청령포",
+    "location": "강원특별자치도 영월군 영월읍 청령포로 133",
+    "description": "세 겹의 물길에 둘러싸인 단종 유배지. 잔잔한 물가와 소나무가 어우러진 조용한 힐링 공간.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MjFfMjg0%2FMDAxNzE2MzAxMjc5OTUz.UIXce2IRrb5i71LmJdqP45bIuBWLeWATa74D6kCCHEMg.HI7egBm_HN1H2QVFgCrIEyP1JQ8kHJlkwByPQHYfY9Yg.JPEG%2F%25C3%25BB%25B7%25C9%25C6%25F7-37.jpg&type=sc960_832",
+    "tags": [
+      "물가",
+      "소나무",
+      "역사",
+      "자연"
+    ],
+    "activities": [
+      "물가 산책",
+      "자연 감상",
+      "역사 탐방",
+      "힐링"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0.3~1만원",
+    "contact": "+82-33-374-1317",
+    "website": "https://www.yeongwol.go.kr",
+    "tips": "이른 아침 물안개가 아름다워요. 조용히 관찰하기. 역사적 의미도 함께 느껴보세요."
+  },
+  {
+    "id": "heal011",
+    "title": "태안 신두리 사구",
+    "location": "충청남도 태안군 원북면 신두리",
+    "description": "한국 최대 규모의 해안사구. 끝없이 펼쳐진 모래언덕과 바다가 만나는 드라마틱한 자연 경관.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMDZfMTg1%2FMDAxNzM4ODI3MzE4ODUw.fGCh_P1T8Dlv7wT-oUtRGzbxfzxyh85OmxAkzOFE-18g.Ff92O9QoVzrMQ-5oRwkPMewICIsGI8SjOFB7QDeLWu8g.JPEG%2FIMG_9048.jpg&type=sc960_832",
+    "tags": [
+      "해안사구",
+      "모래언덕",
+      "바다",
+      "자연"
+    ],
+    "activities": [
+      "사구 산책",
+      "자연 관찰",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-41-670-2000",
+    "website": "https://www.taean.go.kr",
+    "tips": "일몰 시간대가 가장 아름다워요. 모래가 날릴 수 있으니 마스크 준비. 편한 신발 필수."
+  },
+  {
+    "id": "heal012",
+    "title": "울진 후포해수욕장",
+    "location": "경상북도 울진군 후포면 후포리",
+    "description": "동해의 맑은 바다와 검은 모래사장이 어우러진 해변. 파도 소리와 함께하는 바다 힐링 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMjdfNzEg%2FMDAxNjAzODA3NDc5MjU2.Jnu4KiVNnZK9yoMqDZraPWHURNo77sJIDVe7cWLs-uUg.mfPQDzzVUbl_XRAvdbX6qU5aXlnZ7XPRwaZi4HJq1VIg.JPEG.steve0315%2F20200823%25A3%25DF123428.jpg&type=sc960_832",
+    "tags": [
+      "해수욕장",
+      "동해",
+      "검은모래",
+      "파도소리"
+    ],
+    "activities": [
+      "해변 산책",
+      "자연 감상",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "여름(6~9월)",
+    "difficulty": "쉬움",
+    "duration": "1~3시간",
+    "budget": "0~2만원",
+    "contact": "+82-54-789-2000",
+    "website": "https://www.uljin.go.kr",
+    "tips": "여름철 물놀이 가능. 검은 모래의 특별한 경관을 즐겨보세요. 일몰 시간대 추천."
+  },
+  {
+    "id": "heal013",
+    "title": "강릉 정동진 해변",
+    "location": "강원특별자치도 강릉시 강동면 정동진리",
+    "description": "동해의 첫 일출을 볼 수 있는 해변. 바다와 함께하는 일출 힐링의 대표 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMDFfMjM4%2FMDAxNzA5Mjg5NzEzMDMz.hozUaOJrrHJuFkuVDGqpwuw1IDu2HJzlmvhMIVjen2Mg.NSuvnNPJ6Ecq388lCIfl7eeACK6YYZtqX6Yy8m11HSUg.JPEG%2F20240301%25A3%25DF164248.jpg&type=sc960_832",
+    "tags": [
+      "일출",
+      "동해",
+      "해변",
+      "자연"
+    ],
+    "activities": [
+      "일출 감상",
+      "해변 산책",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~2만원",
+    "contact": "+82-33-640-5114",
+    "website": "https://www.gangneung.go.kr",
+    "tips": "일출 시간 30분 전 도착 추천. 새벽 기온 낮으니 방한복 준비. 조용히 관찰하기."
+  },
+  {
+    "id": "heal014",
+    "title": "여수 오동도",
+    "location": "전라남도 여수시 중앙동",
+    "description": "여수 앞바다의 작은 섬. 동백나무와 함께하는 섬 힐링과 바다 전망의 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEyMDdfMjcg%2FMDAxNzMzNTY5NjY1Mjcw.0InGR4WT6LgT2tq-tyHCT9FaW5cBK3kJmdjg0JpThgQg.ko2nYIUK93o8V_bQDs8o-zYbLLlul6I000ykqUYLnS8g.JPEG%2F20231121_143601.jpg&type=sc960_832",
+    "tags": [
+      "섬",
+      "동백나무",
+      "바다뷰",
+      "자연"
+    ],
+    "activities": [
+      "섬 산책",
+      "자연 관찰",
+      "사진 촬영",
+      "힐링"
+    ],
+    "bestSeason": "봄 동백 시즌(3~4월)",
+    "difficulty": "쉬움",
+    "duration": "1~2시간",
+    "budget": "0~1만원",
+    "contact": "+82-61-690-2000",
+    "website": "https://www.yeosu.go.kr",
+    "tips": "봄 동백 시즌이 가장 아름다워요. 섬 내 조용히 관찰하기. 편한 신발 권장."
+  },
+  {
+    "id": "heal015",
+    "title": "제주도 성산일출봉",
+    "location": "제주특별자치도 서귀포시 성산읍 일출로 284-12",
+    "description": "유네스코 세계자연유산. 분화구 능선에서 일출과 함께하는 자연 힐링의 대표 명소.",
+    "category": "힐링 자연여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA4MzBfMjcy%2FMDAxNzU2NTI3MDczNDcw.ETswV4EvrZdFbV9i6S6Aw_mzym4GI3ThY1thu8dliOYg.hkeV7viAZLKefUkc46Eb-XFDEjm7_X2PhpLMIKj28ksg.JPEG%2F900%25A3%25DF20250816%25A3%25DF174914.jpg&type=sc960_832",
+    "tags": [
+      "일출",
+      "분화구",
+      "유네스코",
+      "자연"
+    ],
+    "activities": [
+      "오름 등반",
+      "일출 감상",
+      "자연 관찰",
+      "힐링"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1.5~2시간",
+    "budget": "0.5~1만원",
+    "contact": "+82-64-783-0959",
+    "website": "https://www.visitjeju.net",
+    "tips": "일출 시간 30~60분 전 도착 권장. 첫 월요일 휴무 확인. 편한 신발 필수."
+  }
+]

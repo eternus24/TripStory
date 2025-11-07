@@ -1,0 +1,524 @@
+/* ======================================================
+   [LocalMarket v2.4] 제품 중심 여행로컬마켓
+   - 배너 전구(방문 혜택 안내) 포털 팝오버 스타일 추가
+   - 카드 #태그 제거 (모달은 유지)
+   - 방문 진행도 5칸 스텝
+   - 인증 뱃지(정부/지자체 인증 느낌) 톤 적용
+   - 모달: 판매가(취소선) | 쿠폰 적용가 가로 배치, 총 할인액 한 줄
+   - 인증 뱃지와 별점 간격/줄바꿈 보완
+   ====================================================== */
+
+/* ==================== 전체 래퍼 ==================== */
+.local-market-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  background: linear-gradient(180deg, #F8F9FA 0%, #FFFFFF 100%);
+  min-height: 100vh;
+}
+
+/* ==================== 배너 v2 ==================== */
+.market-banner-v2 {
+  background: linear-gradient(135deg, #1976D2 0%, #4CAF50 100%);
+  border-radius: 24px;
+  padding: 40px;
+  margin-bottom: 32px;
+  box-shadow: 0 12px 40px rgba(25, 118, 210, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  overflow: hidden; /* 포털 팝오버를 쓰므로 유지해도 잘리지 않음 */
+}
+
+.market-banner-v2::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.banner-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 10px 0;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.banner-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0 0 12px 0;
+}
+
+.banner-stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.banner-stats span {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+/* 🔔 배너 하단 한줄 안내 */
+.banner-inline-hint{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: .95rem;
+  color: rgba(255,255,255,.95);
+  text-shadow: 0 1px 4px rgba(0,0,0,.15);
+}
+
+.banner-coupon-btn {
+  background: linear-gradient(135deg, #FFB74D 0%, #FFA726 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 32px;
+  font-size: 1.05rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(255, 183, 77, 0.4);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.banner-coupon-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(255, 183, 77, 0.6);
+}
+
+/* 🔔 전구 버튼 & 툴 그룹 */
+.banner-tools{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner-help-btn{
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,.2);
+  color:#fff; font-size: 1.1rem; font-weight: 900;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.35);
+  box-shadow: 0 6px 18px rgba(0,0,0,.15);
+  transition: transform .2s ease, background .2s ease;
+}
+.banner-help-btn:hover{ transform: translateY(-2px); background: rgba(255,255,255,.28); }
+
+/* 🔔 전구 팝오버(포털) */
+.banner-help-pop{
+  background:#fff;
+  border-radius:16px;
+  box-shadow:0 20px 60px rgba(0,0,0,.25);
+  border:1px solid rgba(0,0,0,.08);
+  padding:14px 16px 12px 16px;
+  z-index:10000;
+  animation: bannerPopIn .18s ease-out;
+}
+@keyframes bannerPopIn{ from{ opacity:0; transform:translateY(-6px);} to{opacity:1; transform:translateY(0);} }
+
+.banner-help-pop-head{
+  font-size:1.05rem; font-weight:900; color:#333; margin-bottom:8px;
+}
+.banner-help-pop-body{ color:#555; }
+.banner-help-pop-desc{ margin:0 0 10px 0; font-size:.92rem; line-height:1.5; }
+
+.benefit-steps{
+  list-style:none; padding:0; margin:0 0 10px 0; display:grid; grid-template-columns:1fr 1fr; gap:6px 14px;
+}
+.benefit-steps li{ display:flex; justify-content:space-between; align-items:center; font-size:.92rem; padding:6px 8px; border-radius:10px; background:#F8FAFF; border:1px solid #E8F0FF; }
+.benefit-steps li strong{ color:#E65100; font-weight:900; }
+
+.banner-help-hint{
+  font-size:.85rem; color:#1976D2; font-weight:700; background:#F0F7FF; border:1px solid rgba(25,118,210,.2);
+  padding:6px 10px; border-radius:8px;
+}
+
+.banner-help-close{
+  position:absolute; top:6px; right:8px;
+  width:28px; height:28px; border-radius:50%; border:none;
+  background:#F1F1F1; color:#555; font-weight:900; cursor:pointer;
+}
+.banner-help-close:hover{ background:#E6E6E6; }
+
+.banner-help-arrow{
+  position:absolute; top:-7px; right:22px;
+  width:14px; height:14px;
+  background:#fff; border-left:1px solid rgba(0,0,0,.08); border-top:1px solid rgba(0,0,0,.08);
+  transform: rotate(45deg);
+}
+
+/* ==================== 검색 + 필터 v2 ==================== */
+.market-controls-v2 { margin-bottom: 24px; }
+.search-box-v2 { margin-bottom: 16px; }
+
+.search-input-v2 {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #E0E0E0;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #FFFFFF;
+}
+.search-input-v2:focus {
+  outline: none;
+  border-color: #1976D2;
+  box-shadow: 0 0 0 4px rgba(25, 118, 210, 0.1);
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-select {
+  padding: 12px 16px;
+  border: 2px solid #E0E0E0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.filter-select:hover { border-color: #1976D2; }
+.filter-select:focus {
+  outline: none;
+  border-color: #1976D2;
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
+}
+
+.filter-result-count {
+  margin-left: auto;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #666;
+  padding: 12px 20px;
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+
+/* 쿠폰 필터 체크박스 */
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: 2px solid #E0E0E0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: #FFFFFF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+.filter-checkbox:hover { border-color: #FFB74D; background: #FFFDF2; }
+.filter-checkbox input[type="checkbox"] {
+  width: 18px; height: 18px; cursor: pointer; accent-color: #FFB74D;
+}
+.filter-checkbox span { color: #666; }
+.filter-checkbox:has(input:checked) {
+  border-color: #FFB74D;
+  background: linear-gradient(135deg, #FFFDF2 0%, #FFF8E1 100%);
+}
+.filter-checkbox:has(input:checked) span { color: #E65100; font-weight: 700; }
+
+/* ==================== 제품 그리드 ==================== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+/* ==================== 제품 카드 ==================== */
+.product-card {
+  position: relative;
+  background: #FFFFFF;
+  border: 2px solid #E8E8E8;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  border-color: #1976D2;
+}
+.product-card.has-coupon {
+  border: 3px solid rgba(255, 215, 0, 0.6);
+  box-shadow: 0 4px 20px rgba(255, 193, 7, 0.2);
+}
+.product-card.has-coupon:hover {
+  box-shadow: 0 12px 36px rgba(255, 193, 7, 0.35);
+  border-color: rgba(255, 215, 0, 0.9);
+}
+
+.product-badge-discount {
+  position: absolute;
+  top: 12px; left: 12px;
+  background: linear-gradient(135deg, #E53935 0%, #D32F2F 100%);
+  color: #FFFFFF;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgba(229, 57, 53, 0.4);
+  z-index: 2;
+  animation: badgePulse 2s infinite;
+}
+@keyframes badgePulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.05)} }
+
+.product-card-image {
+  width: 100%; height: 240px; background: #F5F5F5;
+  position: relative; overflow: hidden;
+}
+.product-card-image img {
+  width: 100%; height: 100%; object-fit: cover; transition: transform .3s ease;
+}
+.product-card:hover .product-card-image img { transform: scale(1.05); }
+.product-card-placeholder {
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  font-size: 4rem; background: linear-gradient(135deg, #F5F5F5 0%, #EEEEEE 100%);
+}
+
+/* 이미지 우측 상단: 지역 뱃지 */
+.product-region-badge-image {
+  position: absolute; top: 12px; right: 12px;
+  background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px);
+  color: #1976D2; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 800;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); z-index: 3; border: 2px solid rgba(25,118,210,0.3);
+}
+
+.product-card-body {
+  padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 8px;
+}
+
+.product-card-title {
+  font-size: 1.15rem; font-weight: 800; color: #333; margin: 0; line-height: 1.3;
+  overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+
+/* 🔧 FIX: 인증 뱃지 줄바꿈 방지 */
+.product-vendor {
+  font-size: 0.9rem; color: #666; font-weight: 600;
+  display: flex; align-items: center; gap: 6px;
+  white-space: nowrap;       /* 줄바꿈 금지 */
+  flex-wrap: nowrap;         /* 강제 줄바꿈 방지 */
+}
+
+ /* 인증 뱃지(미니/빅) */
+.cert-badge-mini{
+  background: linear-gradient(135deg,#2E7D32 0%,#66BB6A 100%);
+  color:#fff; padding:2px 8px; border-radius:999px; font-size:.72rem; font-weight:800;
+  box-shadow:0 2px 6px rgba(76,175,80,.3);
+  white-space: nowrap;        /* 🔧 FIX: 배지 자체 줄바꿈 금지 */
+  display: inline-flex;       /* 아이콘/텍스트 수평 정렬 안전 */
+  align-items: center;
+}
+.cert-badge-big{
+  background: linear-gradient(135deg,#2E7D32 0%,#81C784 100%);
+  color:#fff; padding:6px 10px; border-radius:10px; font-size:.85rem; font-weight:800;
+  box-shadow:0 3px 10px rgba(76,175,80,.35);
+  margin-left: 6px; /* 미세 간격 */
+}
+
+.product-rating { font-size: 0.9rem; font-weight: 700; color: #FFB300; margin-top: 4px; }
+
+/* === 카드 내부 진행도: 5칸 스텝 === */
+.progress-steps-card {
+  background: linear-gradient(135deg, #F0F7FF 0%, #E3F2FD 100%);
+  border: 1px solid rgba(25,118,210,0.2);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-top: 10px;
+}
+.progress-steps-row { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-bottom: 6px; }
+.step-box {
+  height: 12px; border-radius: 6px;
+  background: rgba(25,118,210,0.15); border: 1px solid rgba(25,118,210,0.25);
+}
+.step-box.active {
+  background: linear-gradient(90deg,#1976D2 0%,#4CAF50 100%);
+  border-color: rgba(25,118,210,0.45);
+}
+.progress-steps-text { font-size: 0.8rem; color: #1976D2; font-weight: 700; text-align: center; }
+
+/* 가격 섹션(카드) */
+.product-price-section {
+  display: flex; flex-direction: column; gap: 6px;
+  margin-top: 12px; padding-top: 12px; border-top: 1px solid #F0F0F0;
+}
+.price-label-text { font-size: 0.85rem; color: #888; font-weight: 600; }
+.price-original-striked { font-size: 0.95rem; color: #999; text-decoration: line-through; font-weight: 500; }
+.price-coupon-label { font-size: 0.9rem; color: #E65100; font-weight: 800; margin-top: 4px; }
+.price-discount-huge { font-size: 1.6rem; font-weight: 900; color: #E65100; letter-spacing: -0.8px; line-height: 1.2; }
+.price-normal-huge { font-size: 1.5rem; font-weight: 900; color: #333; letter-spacing: -0.5px; }
+.price-save-text { font-size: 0.85rem; font-weight: 700; color: #E53935; background: rgba(229,57,53,.1); padding: 4px 10px; border-radius: 8px; width: fit-content; }
+
+.product-card-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #1976D2 0%, #4CAF50 100%);
+  color: #FFFFFF; border: none; border-top: 2px solid #E8E8E8;
+  padding: 16px; font-size: 1rem; font-weight: 800; cursor: pointer; transition: all 0.3s ease;
+  margin-top: auto;
+}
+.product-card-btn:hover { background: linear-gradient(135deg, #1565C0 0%, #388E3C 100%); }
+.product-card.has-coupon .product-card-btn {
+  background: linear-gradient(135deg, #FFB74D 0%, #FFA726 100%); border-top-color: rgba(255, 215, 0, 0.3);
+}
+.product-card.has-coupon .product-card-btn:hover { background: linear-gradient(135deg, #FFA726 0%, #FB8C00 100%); }
+
+/* ==================== 모달 ==================== */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(6px);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 9999; padding: 20px; animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn { from{opacity:0} to{opacity:1} }
+
+.product-modal {
+  background: #FFFFFF; border-radius: 24px; max-width: 1000px; width: 100%;
+  max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+  animation: slideUp 0.3s ease; position: relative;
+}
+@keyframes slideUp { from{opacity:0; transform:translateY(40px)} to{opacity:1; transform:translateY(0)} }
+
+.modal-close {
+  position: absolute; top: 20px; right: 20px;
+  background: rgba(0,0,0,0.5); backdrop-filter: blur(10px);
+  border: none; border-radius: 50%; width: 44px; height: 44px;
+  font-size: 1.5rem; color: #FFF; cursor: pointer; transition: all 0.2s ease;
+  display: flex; align-items: center; justify-content: center; z-index: 10;
+}
+.modal-close:hover { background: rgba(0,0,0,0.7); transform: rotate(90deg); }
+
+.product-modal-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.product-modal-image {
+  background: #F5F5F5; min-height: 500px; display: flex; align-items: center; justify-content: center;
+  border-radius: 24px 0 0 24px; overflow: hidden;
+}
+.product-modal-image img { width: 100%; height: 100%; object-fit: cover; }
+.product-modal-placeholder { font-size: 5rem; color: #BDBDBD; text-align: center; padding: 40px; }
+
+.product-modal-info { padding: 40px; display: flex; flex-direction: column; gap: 20px; }
+.product-modal-region {
+  display: inline-block; background: #F0F7FF; color: #1976D2;
+  padding: 6px 14px; border-radius: 10px; font-size: 0.9rem; font-weight: 700; width: fit-content;
+}
+.product-modal-title { font-size: 2rem; font-weight: 900; color: #333; margin: 0; line-height: 1.3; }
+
+/* ===== 인증/별점 간격 및 줄바꿈 보완 */
+.product-modal-vendor {
+  display: flex; justify-content: space-between; align-items: center; column-gap: 12px;
+}
+.vendor-name-big {
+  font-size: 1.1rem; font-weight: 700; color: #666;
+  display: flex; align-items: center; gap: 10px; flex-wrap: nowrap; white-space: nowrap;
+}
+.vendor-rating-big { font-size: 1.1rem; font-weight: 800; color: #FFB300; flex: 0 0 auto; }
+
+.product-modal-desc { font-size: 0.95rem; color: #666; line-height: 1.6; }
+.product-modal-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag-big { background: #F0F7FF; color: #1976D2; padding: 6px 14px; border-radius: 10px; font-size: 0.9rem; font-weight: 600; }
+
+/* ===== 모달 가격: 가로 배치(판매가 | 쿠폰가) + 총 할인액 */
+.product-modal-price {
+  background: linear-gradient(135deg, #FFFDF2 0%, #FFF8E1 100%);
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 8px 0;
+}
+.product-modal-price--row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: end; }
+.product-modal-price--row .price-col { min-width: 0; }
+
+.price-label { font-size: 0.9rem; color: #666; font-weight: 600; margin-bottom: 6px; }
+.price-label-coupon { font-size: 1rem; color: #E65100; font-weight: 800; margin: 12px 0 6px 0; }
+
+.price-original-line { font-size: 1.4rem; color: #999; text-decoration: line-through; margin: 2px 0 0; }
+.price-discount-huge { font-size: 2.2rem; font-weight: 900; color: #E65100; letter-spacing: -1px; margin-bottom: 8px; }
+.price-normal-huge { font-size: 2rem; font-weight: 900; color: #333; }
+
+.price-discount-inline { font-size: 1.8rem; font-weight: 900; color: #E65100; letter-spacing: -0.5px; line-height: 1.2; }
+.price-save { font-size: 0.95rem; font-weight: 700; color: #E53935; background: rgba(229,57,53,.1); padding: 6px 12px; border-radius: 8px; width: fit-content; }
+.price-save-inline { margin-top: 8px; }
+
+.product-modal-address { font-size: 0.9rem; color: #666; padding: 12px 16px; background: #F5F5F5; border-radius: 10px; }
+.product-modal-actions { margin-top: auto; padding-top: 16px; }
+
+.product-modal-buy-btn {
+  width: 100%; background: linear-gradient(135deg, #FFB74D 0%, #FFA726 100%); color: #FFFFFF;
+  border: none; border-radius: 16px; padding: 18px; font-size: 1.2rem; font-weight: 900; cursor: pointer;
+  text-decoration: none; display: block; text-align: center; box-shadow: 0 8px 24px rgba(255, 183, 77, 0.4);
+  transition: all 0.3s ease;
+}
+.product-modal-buy-btn:hover:not(:disabled) { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(255,183,77,.6); background: linear-gradient(135deg, #FFA726 0%, #FB8C00 100%); }
+.product-modal-buy-btn:disabled { background: #BDBDBD; cursor: not-allowed; box-shadow: none; }
+
+.product-modal-coupon-hint {
+  background: #F0F7FF; color: #1976D2; padding: 14px 18px; border-radius: 12px;
+  font-size: 0.9rem; font-weight: 600; text-align: center; line-height: 1.5;
+}
+
+/* ==================== 로딩 & 빈 상태 ==================== */
+.market-loading { display: flex; justify-content: center; align-items: center; min-height: 400px; }
+.loading-spinner-v2 { font-size: 1.2rem; font-weight: 700; color: #1976D2; animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+
+.market-empty-v2 { text-align: center; padding: 80px 20px; }
+.empty-icon { font-size: 5rem; margin-bottom: 20px; opacity: 0.5; }
+.empty-text { font-size: 1.4rem; font-weight: 800; color: #666; margin-bottom: 10px; }
+.empty-hint { font-size: 1rem; color: #999; }
+
+/* ==================== 반응형 ==================== */
+@media (max-width: 1024px) {
+  .product-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
+  .product-modal-grid { grid-template-columns: 1fr; }
+  .product-modal-image { border-radius: 24px 24px 0 0; min-height: 300px; }
+}
+@media (max-width: 768px) {
+  .local-market-wrapper { padding: 24px 16px; }
+  .market-banner-v2 { flex-direction: column; padding: 28px 24px; text-align: center; }
+  .banner-title { font-size: 1.8rem; }
+  .banner-stats { justify-content: center; }
+  .product-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .product-card-image { height: 180px; }
+  .product-modal-info { padding: 28px 24px; }
+  .product-modal-title { font-size: 1.5rem; }
+  .filter-bar { flex-wrap: wrap; }
+  .filter-result-count { width: 100%; text-align: center; }
+}
+@media (max-width: 480px) {
+  .product-grid { grid-template-columns: 1fr; }
+  .banner-title { font-size: 1.5rem; }
+  .product-card-image { height: 220px; }
+}

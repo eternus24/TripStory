@@ -1,0 +1,351 @@
+/* ======================================================
+   [MyCoupons] 내 쿠폰함 (TravelStamp 톤 통일)
+   + 자동 접힘/펼치기 기능 완전 적용
+   ====================================================== */
+
+/* 컨테이너 */
+.my-coupons-wrapper {
+  background: linear-gradient(135deg, #FFFDF2 0%, #FFFFFF 100%);
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 8px 32px rgba(255, 193, 7, 0.12);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.my-coupons-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(255, 215, 0, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(255, 183, 77, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.my-coupons-wrapper > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* 헤더 */
+.my-coupons-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #1976D2 0%, #4CAF50 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.4px;
+  margin: 0 0 8px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* 이모지 애니메이션 */
+.my-coupons-title .emoji {
+  -webkit-text-fill-color: initial;
+  background: none;
+  font-size: 2.2rem;
+  filter: drop-shadow(0 3px 10px rgba(255, 193, 7, 0.5));
+  animation: bounceEmoji 2.5s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes bounceEmoji {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25%      { transform: translateY(-6px) rotate(-8deg); }
+  75%      { transform: translateY(-3px) rotate(8deg); }
+}
+
+.my-coupons-sub {
+  color: #66BB6A;
+  font-size: 1.02rem;
+  font-weight: 600;
+  margin: 0 0 18px 0;
+}
+
+/* 통계 */
+.coupon-stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0 24px 0;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF8E1 100%);
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 215, 0, 0.25);
+  box-shadow: 0 2px 12px rgba(255, 193, 7, 0.08);
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.2);
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #8D8D8D;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #FFB74D 0%, #FFA726 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 컨트롤 영역 */
+.coupon-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* 탭 */
+.coupon-tabs {
+  display: flex;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.tab-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #757575;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+  background: rgba(255, 215, 0, 0.15);
+  color: #5D4037;
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, #FFB74D 0%, #FFA726 100%);
+  color: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(255, 183, 77, 0.3);
+}
+
+/* 정렬 */
+.sort-select {
+  padding: 8px 14px;
+  border: 2px solid rgba(255, 215, 0, 0.3);
+  border-radius: 10px;
+  background: #FFFFFF;
+  color: #5D4037;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* 그리드 */
+.coupon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ✅ 자동 접힘 적용 핵심 */
+.coupon-list-wrapper {
+  position: relative;
+  transition: max-height 0.25s ease;
+}
+
+/* 접힌 상태 — JS가 한 줄 높이를 --collapsed-max 로 넣어줌 */
+.coupon-list-wrapper.collapsed[data-collapsible="true"] {
+  overflow: hidden;
+  max-height: var(--collapsed-max, 9999px);
+}
+
+/* 접힘 시 페이드 */
+.coupon-list-wrapper.collapsed[data-collapsible="true"]::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 48px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+/* 펼침 상태 */
+.coupon-list-wrapper.expanded {
+  max-height: 9999px;
+}
+
+/* 쿠폰 카드 */
+.coupon-card {
+  position: relative;
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF8E1 100%);
+  border-radius: 16px;
+  padding: 16px;
+  border: 2px solid rgba(255, 215, 0, 0.35);
+  box-shadow: 0 4px 20px rgba(255, 193, 7, 0.12);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
+  overflow: hidden;
+}
+
+.coupon-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 35px rgba(255, 193, 7, 0.25);
+  border-color: rgba(255, 215, 0, 0.7);
+}
+
+.coupon-card.due-soon {
+  border-color: rgba(255, 111, 0, 0.6);
+  box-shadow: 0 4px 20px rgba(255, 111, 0, 0.18);
+}
+
+/* 상태 뱃지 */
+.coupon-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #FFF;
+  background: linear-gradient(135deg, #4CAF50 0%, #81C784 100%);
+  animation: badgePulse 2s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% { box-shadow: 0 4px 12px rgba(76, 175, 80, 0.35); }
+  50%      { box-shadow: 0 4px 16px rgba(76, 175, 80, 0.5); }
+}
+
+.coupon-badge.expired { background: linear-gradient(135deg, #9E9E9E 0%, #BDBDBD 100%); animation: none; }
+.coupon-badge.used    { background: linear-gradient(135deg, #78909C 0%, #90A4AE 100%); animation: none; }
+
+/* 메타 */
+.coupon-region {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #5D4037;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.coupon-meta {
+  font-size: 0.92rem;
+  color: #6D6D6D;
+  margin-top: 6px;
+  line-height: 1.45;
+}
+
+/* 버튼 */
+.coupon-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.coupon-btn {
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: linear-gradient(135deg, #FFB74D 0%, #FFA726 100%);
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 183, 77, 0.35);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.coupon-btn:hover:not(:disabled) {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #FFA726 0%, #FB8C00 100%);
+  box-shadow: 0 8px 24px rgba(255, 183, 77, 0.6);
+}
+
+.coupon-btn:disabled {
+  cursor: default;
+  background: #BDBDBD;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+/* 토글 버튼 */
+.toggle-expand-btn {
+  margin-top: 20px;
+  padding: 12px 32px;
+  border: 2px solid rgba(255, 215, 0, 0.4);
+  border-radius: 12px;
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF8E1 100%);
+  color: #5D4037;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.15);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.25s ease;
+}
+
+.toggle-expand-btn:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 215, 0, 0.7);
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.25);
+}
+
+.toggle-expand-btn .arrow {
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+.toggle-expand-btn.expanded .arrow {
+  transform: rotate(180deg);
+}
+
+/* 비어있음/오류 */
+.coupon-empty,
+.coupon-error {
+  text-align: center;
+  padding: 22px 0;
+  font-size: 0.95rem;
+}
+
+.coupon-empty { color: #8D8D8D; }
+.coupon-error { color: #D32F2F; font-weight: 700; }
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .my-coupons-wrapper { padding: 22px 18px; }
+  .coupon-list { grid-template-columns: 1fr; }
+  .coupon-controls { flex-direction: column; align-items: stretch; }
+  .tab-btn { flex: 1; padding: 10px 12px; }
+  .sort-select { width: 100%; }
+}

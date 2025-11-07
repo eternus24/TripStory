@@ -1,0 +1,407 @@
+[
+  {
+    "id": "camp001",
+    "title": "자라섬 캠핑장",
+    "location": "경기도 가평군 가평읍 달전리 1-1",
+    "description": "강변 잔디광장과 캠핑존이 넓게 펼쳐진 섬 캠핑장. 차박과 텐트 캠핑 모두 가능하며, 강변 뷰와 함께하는 힐링 캠핑의 명소.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MDlfMTI0%2FMDAxNzQ0MTM0ODg5NTU1.-YF7lyCxwjIM9hqsp9DIfexO_7NT8FH3W7oFHFBiuo8g.vY5wIbz3hIRIvBq1BHXDUwFl2hNm97k5XTHzY-xiZFkg.JPEG%2FthumbM_2022010583314.45.jpg&type=sc960_832",
+    "tags": [
+      "강변캠핑",
+      "차박",
+      "텐트캠핑",
+      "잔디광장"
+    ],
+    "activities": [
+      "캠핑",
+      "차박",
+      "강변 산책",
+      "피크닉"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~8만원",
+    "contact": "+82-31-580-2067",
+    "website": "https://www.gp.go.kr",
+    "tips": "캠핑장 예약 필수. 성수기 페스티벌 일정 확인. 반려동물 동반 가능하지만 규정 확인 필요."
+  },
+  {
+    "id": "camp002",
+    "title": "제주도 애월 해안도로 차박",
+    "location": "제주특별자치도 제주시 애월읍 애월로 1길 일대",
+    "description": "현무암 해안과 투명한 바다가 어우러진 해안도로. 차박으로 일출을 감상하며 바다 뷰와 함께하는 특별한 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMTFfNDkg%2FMDAxNjE1NDQ1NTg2NjE1.xKTL7uRgK5QdBFEA4mReZ2kd5oexBxr0P6PjluActtcg.MWQSDEsDpTrPPISKRQCJ-rjsT5FQ3Efhebkqc9BAZ1og.JPEG.myrealtrip%2F%25C1%25A6%25C1%25D6%25C2%25F7%25B9%25DA21.jpg&type=sc960_832",
+    "tags": [
+      "해안차박",
+      "일출",
+      "현무암",
+      "바다뷰"
+    ],
+    "activities": [
+      "차박",
+      "일출 감상",
+      "해안 산책",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "1~5만원",
+    "contact": "+82-64-728-2753",
+    "website": "https://www.visitjeju.net",
+    "tips": "차박 허용 구역 확인 필수. 바람이 강할 수 있으니 차량 고정 주의. 일출 시간 1시간 전 도착 추천."
+  },
+  {
+    "id": "camp003",
+    "title": "양평 두물머리 캠핑장",
+    "location": "경기도 양평군 양서면 두물머리길 125",
+    "description": "북한강과 남한강이 만나는 물안개 명소의 캠핑장. 강변 뷰와 함께하는 조용한 캠핑과 차박의 명소.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MjBfNDYg%2FMDAxNjgxOTY3OTMwODUx.6yaY__xMI7IIKTrfRHSQPs5_ZtQTpGQlEpEhwSWA0tcg.yOnZIy4cQc5tIIolr0zKku45_CsZPoh3ukm4mZz05GYg.JPEG.yeonjo3%2FIMG_9822.jpg&type=sc960_832",
+    "tags": [
+      "강변캠핑",
+      "물안개",
+      "차박",
+      "느티나무"
+    ],
+    "activities": [
+      "캠핑",
+      "차박",
+      "강변 산책",
+      "자연 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-31-770-1000",
+    "website": "https://www.yp.go.kr",
+    "tips": "이른 아침 물안개가 아름다워요. 캠핑장 예약 필수. 벌레·습기 주의."
+  },
+  {
+    "id": "camp004",
+    "title": "부산 해운대 해변 차박",
+    "location": "부산광역시 해운대구 우동 1394",
+    "description": "해운대 해변 인근 차박 허용 구역. 바다 소리와 함께하는 해변 캠핑과 일몰 감상이 가능한 특별한 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MjBfNTEg%2FMDAxNzUwMzkxODYwODQ2.rq5nLRku3aTLFWkKFtA7zOy9aSjeYTNi5KbXLCE8tvgg.Lhf2qmMLIbJ6z9zAj50DawtdZvSiTIcM4suBlJRwqAMg.PNG%2F900%25A3%25DFReactNativeBlobUtilTmp%25A3%25DFm6thf432akdn2j6eapcjai.png&type=sc960_832",
+    "tags": [
+      "해변차박",
+      "일몰",
+      "바다소리",
+      "해운대"
+    ],
+    "activities": [
+      "차박",
+      "해변 산책",
+      "일몰 감상",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "1~4만원",
+    "contact": "+82-51-749-5700",
+    "website": "https://www.visitbusan.net",
+    "tips": "차박 허용 구역 확인 필수. 해변 근처라 습도 높을 수 있음. 일몰 시간대가 황금시간."
+  },
+  {
+    "id": "camp005",
+    "title": "강릉 정동진 해변 캠핑",
+    "location": "강원특별자치도 강릉시 강동면 정동진리",
+    "description": "동해의 첫 일출을 볼 수 있는 해변 캠핑장. 일출과 함께하는 특별한 캠핑 경험과 바다 뷰를 즐길 수 있어요.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA5MTdfMTUz%2FMDAxNzU4MDc5NDY3OTAx.xJNWYUvhcnOIdhPEk3q7Ww51On0Gipo_wkyJutVrQBYg.dFgO9vyZriB82vvQY5TlXodHM7nK3ht36hXxiyDrpfgg.JPEG%2F900%25A3%25DF20250914%25A3%25DF140749.jpg&type=sc960_832",
+    "tags": [
+      "해변캠핑",
+      "일출",
+      "동해첫일출",
+      "바다뷰"
+    ],
+    "activities": [
+      "캠핑",
+      "일출 감상",
+      "해변 산책",
+      "사진 촬영"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-33-640-5114",
+    "website": "https://www.gangneung.go.kr",
+    "tips": "일출 시간 30분 전 도착 추천. 새벽 기온 낮으니 방한복 필수. 캠핑장 예약 필수."
+  },
+  {
+    "id": "camp006",
+    "title": "제주도 성산일출봉 캠핑장",
+    "location": "제주특별자치도 서귀포시 성산읍 일출로 284-12",
+    "description": "유네스코 세계자연유산 성산일출봉 근처 캠핑장. 일출과 함께하는 특별한 캠핑 경험과 제주의 자연을 만끽할 수 있어요.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MzBfODIg%2FMDAxNzUxMjg0OTI4NTM0.YC_FT8jgXcAo2AkJjwr60ElxrigH-wzyyE8gTilbrMcg.6OlLwFJXu2WrBUt6GRAl6orTk_7rNggYbAg2VVYE7zEg.JPEG%2F20250627_051706.jpg&type=sc960_832",
+    "tags": [
+      "일출캠핑",
+      "유네스코",
+      "분화구",
+      "제주자연"
+    ],
+    "activities": [
+      "캠핑",
+      "일출 감상",
+      "오름 등반",
+      "자연 감상"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "2~5만원",
+    "contact": "+82-64-783-0959",
+    "website": "https://www.visitjeju.net",
+    "tips": "일출 시간 30~60분 전 도착 권장. 첫 월요일 휴무 확인. 편한 신발 필수."
+  },
+  {
+    "id": "camp007",
+    "title": "포항 호미곶 차박",
+    "location": "경상북도 포항시 남구 호미곶면 대보리",
+    "description": "한반도 최동단에서 맞는 일출과 함께하는 차박. 상생의 손 조형물과 함께하는 의미 있는 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDEwMTVfMTY5%2FMDAxNjAyNzQ3OTI4MzMx.MRN7XLm0sXkRXMfsaIIjIa0IJqwTdhM3zTZ4YuNl9Mcg._8cOZGggknM2GLqp5aZvVIoRFmFf3CFmgMfh7SCNt98g.JPEG.floapplem%2F2020-02-16-10.54.01.jpg&type=sc960_832",
+    "tags": [
+      "일출차박",
+      "최동단",
+      "상생의손",
+      "의미있는장소"
+    ],
+    "activities": [
+      "차박",
+      "일출 감상",
+      "해안 산책",
+      "의미있는체험"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "1~3만원",
+    "contact": "+82-54-270-8000",
+    "website": "https://www.pohang.go.kr",
+    "tips": "일출 시간 30분 전 도착 추천. 새해 첫날은 특별한 의미. 바람이 강하니 방한복 준비."
+  },
+  {
+    "id": "camp008",
+    "title": "여수 밤바다 캠핑장",
+    "location": "전라남도 여수시 중앙동 여수세계박람회장 일대",
+    "description": "여수 밤바다의 환상적인 야경과 함께하는 캠핑장. 야간 조명이 바다에 반사되어 더욱 아름다운 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA3MDFfNTIg%2FMDAxNzUxMzIxNzU3OTA3.2F1NpCaAlA9vxaZkhxP41Qs6bEHbzOBdtDJ5S3Kyf-wg.GbknNlQzJxG2cE5WZmaNWkYrmTmtxvd5MSrjKGGN2dcg.JPEG%2FIMG%25A3%25DF9644.jpg&type=sc960_832",
+    "tags": [
+      "야경캠핑",
+      "밤바다",
+      "오동도",
+      "로맨틱"
+    ],
+    "activities": [
+      "캠핑",
+      "야경 감상",
+      "해변 산책",
+      "로맨틱 데이트"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-61-690-2000",
+    "website": "https://www.yeosu.go.kr",
+    "tips": "일몰 후 30분~1시간이 황금시간. 캠핑장 예약 필수. 주변 여수 갈치 맛집도 놓치지 마세요."
+  },
+  {
+    "id": "camp009",
+    "title": "거제 바람의언덕 차박",
+    "location": "경상남도 거제시 남부면 갈곶리",
+    "description": "바다 위로 뻗은 언덕에서 바람과 함께 즐기는 차박. 일몰 시간대의 황금빛 바다와 함께하는 감성적인 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMjhfMjIg%2FMDAxNjM1NDI5MjA5MTU5.7KHDpsK95Oc8IZS02tRcNTzCiLM6OjSwTwoWxP16DLog.HQRPveYtkKJaanhZTpQGDo_mh_RdTi5EzgCvRdb07N0g.JPEG.hueuwon%2F20211025%25A3%25DF081843.jpg&type=sc960_832",
+    "tags": [
+      "언덕차박",
+      "일몰",
+      "바람의언덕",
+      "감성"
+    ],
+    "activities": [
+      "차박",
+      "일몰 감상",
+      "언덕 산책",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "1~4만원",
+    "contact": "+82-55-639-2000",
+    "website": "https://www.geoje.go.kr",
+    "tips": "일몰 시간 1시간 전이 황금시간. 바람이 강할 수 있으니 겉옷 준비. 차박 허용 구역 확인 필수."
+  },
+  {
+    "id": "camp010",
+    "title": "울산 대왕암공원 차박",
+    "location": "울산광역시 동구 대왕암공원길 154",
+    "description": "바다와 현무암 절벽이 어우러진 해안 공원의 차박 허용 구역. 파도 소리와 함께하는 바다 힐링 캠핑.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MjZfMjI4%2FMDAxNjgyNDc4MDU3MjI5.RXhBkTqSF2vK07KlybDCGYvnBrx0LpVVmT1U6r2pYlwg.ZUD6tI7P-0RvGHYzXOfL4Fm2Hlqr9EoaAqisXrIdO6wg.JPEG.skkimhhi61%2F20230422_164145.jpg&type=sc960_832",
+    "tags": [
+      "해안차박",
+      "현무암",
+      "파도소리",
+      "일몰"
+    ],
+    "activities": [
+      "차박",
+      "해안 산책",
+      "일몰 감상",
+      "자연 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "1~3만원",
+    "contact": "+82-52-229-3147",
+    "website": "https://www.ulsan.go.kr",
+    "tips": "일몰 시간대가 가장 아름다워요. 바람이 강할 수 있으니 방한복 준비. 차박 허용 구역 확인 필수."
+  },
+  {
+    "id": "camp011",
+    "title": "남해 금산 보리암 캠핑장",
+    "location": "경상남도 남해군 상주면 보리암로 665",
+    "description": "절벽 위 사찰과 바다 조망이 어우러지는 남해 캠핑장. 일출·일몰 시간대의 바다 풍경과 함께하는 특별한 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMjRfNDEg%2FMDAxNzAwODE0ODM0MDM3.muLUdYRkl50FYmMKQm-NJyaxWzWNgmnNh2U7dxLFdHYg.JlJ68rpJWifLMW4oaNkelw8CEoeWWyXGijvrD3t78UEg.JPEG.ddalgi7788%2F20231009_141836.jpg&type=sc960_832",
+    "tags": [
+      "사찰캠핑",
+      "바다뷰",
+      "일출일몰",
+      "절벽"
+    ],
+    "activities": [
+      "캠핑",
+      "등산",
+      "사찰 관람",
+      "전망 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "2~5만원",
+    "contact": "+82-55-860-5800",
+    "website": "https://www.namhae.go.kr",
+    "tips": "주차장→보리암까지 산길 이동. 편한 신발 필수. 일출·일몰 타이밍 인기."
+  },
+  {
+    "id": "camp012",
+    "title": "제주도 김녕해수욕장 캠핑",
+    "location": "제주특별자치도 제주시 구좌읍 구좌해안로 237",
+    "description": "에메랄드빛 바다와 하얀 모래, 풍차까지 담기는 해변 캠핑장. 특히 노을 시간대의 색감이 환상적인 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA4MTZfMjY0%2FMDAxNzU1MzQ4OTM5NjY4.YeRCrGyrn-Gr785VBItDIXENJPo773Y84KFd10T5sj4g.eI4klL1Gn7dRADgI03aRevXbMrQF2ECN9NHvVhsa1Zcg.JPEG%2FIMG%25A3%25DF1570.jpg&type=sc960_832",
+    "tags": [
+      "해변캠핑",
+      "에메랄드바다",
+      "풍차",
+      "노을"
+    ],
+    "activities": [
+      "캠핑",
+      "해변 산책",
+      "물놀이",
+      "노을 감상"
+    ],
+    "bestSeason": "여름(6~9월)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~6만원",
+    "contact": "+82-64-728-3988",
+    "website": "https://www.visitjeju.net",
+    "tips": "노을 방향 고려해 서쪽 하늘 구름 많은 날 색감 좋음. 캠핑장 예약 필수."
+  },
+  {
+    "id": "camp013",
+    "title": "사천 진널전망대 차박",
+    "location": "경상남도 사천시 향촌동 신향2길 140",
+    "description": "바다 위로 뻗은 곡선형 데크 전망대 근처 차박 허용 구역. 일출·야간 조명과 함께하는 특별한 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA3MDlfMTkx%2FMDAxNzUyMDIzMzA0MTQ4.p3n5h6wzLigy3uG1UlAlLjbqQziyzLzi3Y_0Azhe_LQg.t2CdGrq5p2ZljHO9GyLl5pI3Qf_OkrlGf4-2hCQ_3z0g.JPEG%2F900%25A3%25DF20250622%25A3%25DF082057.jpg&type=sc960_832",
+    "tags": [
+      "전망대차박",
+      "일출",
+      "데크길",
+      "바다위"
+    ],
+    "activities": [
+      "차박",
+      "전망대 산책",
+      "일출 감상",
+      "바다 감상"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "1~3만원",
+    "contact": "+82-55-832-7896",
+    "website": "https://www.toursacheon.net",
+    "tips": "일출 시간 30분 전 도착 추천. 남일대해수욕장과 연계 코스. 차박 허용 구역 확인 필수."
+  },
+  {
+    "id": "camp014",
+    "title": "거제 근포마을 해식동굴 캠핑",
+    "location": "경상남도 거제시 남부면 저구리 423",
+    "description": "바다와 맞닿은 해식동굴 근처 캠핑장. 특히 노을 시간대의 드라마틱한 풍경과 함께하는 특별한 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MjNfOTMg%2FMDAxNzQ3OTg0ODI1OTM1.jXDznNTF2Wsxqop2b77BNsQTIjPLtyS9FwA4n_FqigEg.fBJZYTW7OSwuP0Nq848Wuc0QIlRNJzEFMZ1U72UHETsg.JPEG%2FKakaoTalk_20250523_161127351_10.jpg&type=sc960_832",
+    "tags": [
+      "해식동굴캠핑",
+      "실루엣",
+      "노을",
+      "드라마틱"
+    ],
+    "activities": [
+      "캠핑",
+      "해변 산책",
+      "실루엣 촬영",
+      "노을 감상"
+    ],
+    "bestSeason": "봄·가을(사계절 가능)",
+    "difficulty": "쉬움",
+    "duration": "1박2일",
+    "budget": "2~5만원",
+    "contact": "+82-55-639-2000",
+    "website": "https://www.geoje.go.kr",
+    "tips": "노을 시간대가 황금시간. 만조·간조 시간 확인. 캠핑장 예약 필수."
+  },
+  {
+    "id": "camp015",
+    "title": "제주도 우도 캠핑장",
+    "location": "제주특별자치도 제주시 우도면",
+    "description": "제주도 동쪽의 작은 섬 우도의 캠핑장. 투명한 바다와 검은 현무암 해안이 어우러진 아름다운 섬 캠핑 경험.",
+    "category": "캠핑 차박 여행",
+    "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MjhfMTE5%2FMDAxNzQ1ODI1OTI1NzU4.ANh3odoAhJuMLA8SuH7DNd7G-0jkis04f85si43_wskg.2KmR-w4zkuJkmKa4vqDrAVhPi2f0bv2T_i-EWNMafxIg.JPEG%2FR0003100.jpg&type=sc960_832",
+    "tags": [
+      "섬캠핑",
+      "투명바다",
+      "현무암",
+      "우도봉"
+    ],
+    "activities": [
+      "캠핑",
+      "섬 투어",
+      "해안 산책",
+      "섬체험"
+    ],
+    "bestSeason": "봄·여름(사계절 가능)",
+    "difficulty": "보통",
+    "duration": "1박2일",
+    "budget": "3~8만원",
+    "contact": "+82-64-740-6000",
+    "website": "https://www.visitjeju.net",
+    "tips": "페리 시간표 미리 확인. 자전거 대여해서 섬 한 바퀴 도는 것 추천. 날씨 체크 필수."
+  }
+]

@@ -1,0 +1,58 @@
+/* 1. 전체 페이지 레이아웃 (.body) */
+
+/* MyPageMain의 최상위 컨테이너 */
+.body {
+    max-width: 1200px; /* 최대 너비 설정, 중앙 콘텐츠를 제한 */
+    margin: auto; /* 상하 여백 40px, 좌우 auto로 중앙 정렬 */
+    padding: 0 10px; /* 화면 양쪽 끝에 여백 추가 */
+    background-color: #F8F9FA; /* 매우 연한 회색 배경 (하늘 느낌에 잘 어울림) */
+    margin-left: 350px; 
+    margin-top: -40px;
+}
+
+/* 로그인 미사용 시 메시지 스타일 */
+.body > div {
+    text-align: center; /* 텍스트 중앙 정렬 */
+    padding: 90px 0; /* 상하로 넓은 여백 */
+    font-size: 1.2em;
+    color: #6C757D; /* 부드러운 회색 */
+}
+
+/* * 2. 서브 컴포넌트 배치 레이아웃 (MyProfile, TravelStamp, MyPosts) ********/
+/* <div className="mypage-content-wrapper"> */
+.mypage-content-wrapper {
+    display: flex; /* CSS Grid 레이아웃 사용 */
+    align-items: flex-start;
+    gap: 30px;
+    overflow: visible; /* ✅ sticky가 잘리지 않게 */
+}
+
+/* MyProfile, TravelStamp, MyPosts 등을 담는 공통 카드 스타일 */
+.mypage-section-card {
+    background-color: #FFFFFF; /* 흰색 배경 */
+    border-radius: 12px; /* 모서리 둥글게 처리 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* 부드러운 그림자 효과 */
+    padding: 30px; /* 내부 여백 */
+    margin-bottom: 30px; /* 섹션 간 하단 마진 */
+    transition: transform 0.3s ease; /* 호버 시 애니메이션 효과 준비 */
+}
+
+/* 카드에 마우스를 올렸을 때 살짝 뜨는 효과 */
+.mypage-section-card:hover {
+    transform: translateY(-3px); /* Y축으로 살짝 위로 이동 */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* 그림자를 더 진하게 */
+}
+
+/* * 3. TravelStamp 및 MyPosts를 위한 묶음 컨테이너 */
+/* MyProfile 이외의 나머지 컴포넌트(스탬프, 게시물)를 묶는 영역 */
+.right-content-wrapper {
+    display: flex; /* 내부 컴포넌트(스탬프/게시물)를 수직으로 배열 */
+    flex-direction: column;
+    gap: 30px; /* TravelStamp과 MyPosts 사이의 간격 */
+}
+
+@media (max-width: 900px) {
+  .body {
+    margin-left: 0; /* 모바일에서는 프로필이 위로 내려가므로 여백 제거 */
+  }
+}
