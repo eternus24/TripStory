@@ -1,0 +1,85 @@
+[
+  {
+    "reviewTitle": "파리 2박3일 — 에펠·루브르·크루아상 🗼🥐",
+    "comments": [
+      { "authorName": "유진", "content": "사진이 너무 예뻐요! 파리 감성 그대로네요." },
+      { "authorName": "리사", "content": "크루아상 맛집 정보 공유해주실 수 있나요?" },
+      { "authorName": "태민", "content": "저도 세느강 유람선 타봤는데 진짜 로맨틱했어요." }
+    ]
+  },
+  {
+    "reviewTitle": "런던 주말 — 타워브리지와 노팅힐 🌉",
+    "comments": [
+      { "authorName": "수진", "content": "노팅힐 거리 사진 기대돼요!" },
+      { "authorName": "현우", "content": "영국 날씨 감성 제대로네요 ☁️" }
+    ]
+  },
+  {
+    "reviewTitle": "로마 3일 — 콜로세움·트레비 분수 ✨",
+    "comments": [
+      { "authorName": "엘리", "content": "트레비 분수 앞에서 소원 빌었던 기억나요!" },
+      { "authorName": "루카", "content": "피자 사진도 보고 싶어요 🍕" }
+    ]
+  },
+  {
+    "reviewTitle": "바르셀로나 4박 — 가우디와 해변 🏖️",
+    "comments": [
+      { "authorName": "준호", "content": "사그라다 파밀리아 진짜 압도적이죠!" },
+      { "authorName": "혜진", "content": "바르셀로나 해변 맥주라니 완벽해요 🍺" },
+      { "authorName": "에바", "content": "람블라스 거리 분위기 너무 좋아요." }
+    ]
+  },
+  {
+    "reviewTitle": "암스테르담 2박 — 운하와 자전거 🚲",
+    "comments": [
+      { "authorName": "미나", "content": "자전거 타고 도시 돌기 너무 재밌죠!" },
+      { "authorName": "재현", "content": "암스테르담 운하 야경은 진짜 예술이에요." }
+    ]
+  },
+  {
+    "reviewTitle": "프라하 3일 — 카를교와 구시가지 ⛪",
+    "comments": [
+      { "authorName": "소연", "content": "프라하는 진짜 낭만 그 자체 ❤️" },
+      { "authorName": "도윤", "content": "체코 맥주가 그렇게 맛있다던데 궁금해요." },
+      { "authorName": "린", "content": "중세 분위기 사진 기대돼요!" }
+    ]
+  },
+  {
+    "reviewTitle": "서울 1박2일 — 북촌·한옥·카페 산책 ☕🏘️",
+    "comments": [
+      { "authorName": "지유", "content": "한옥 지붕 라인 사진 너무 예뻐요!" },
+      { "authorName": "태리", "content": "익선동 브런치집 추천 부탁해요 :)" },
+      { "authorName": "보라", "content": "청계천 야경 산책 코스 공유 가능할까요?" }
+    ]
+  },
+  {
+    "reviewTitle": "부산 2박 — 해운대·광안리 밤바다 🌊🌉",
+    "comments": [
+      { "authorName": "준혁", "content": "광안대교 불꽃 사진 기대합니다!" },
+      { "authorName": "하린", "content": "달맞이고개 카페도 좋았어요 ☕" }
+    ]
+  },
+  {
+    "reviewTitle": "제주 3일 — 성산일출·오름 트레킹 🌋🌾",
+    "comments": [
+      { "authorName": "세린", "content": "새별오름 코스 난이도 어느 정도인가요?" },
+      { "authorName": "민석", "content": "협재는 물색이 진짜 미쳤죠 ㅎㅎ" },
+      { "authorName": "엘라", "content": "일출 타임 팁 있으면 알려주세요!" }
+    ]
+  },
+  {
+    "reviewTitle": "경주 2박 — 대릉원·불국사·야경 산책 🏛️",
+    "comments": [
+      { "authorName": "호진", "content": "동궁과 월지 야경은 진짜 최고!" },
+      { "authorName": "가은", "content": "불국사 아침 공기… 기억나네요." }
+    ]
+  },
+  {
+    "reviewTitle": "강릉 1박2일 — 안목 카페·경포호 🌅",
+    "comments": [
+      { "authorName": "은별", "content": "안목 카페 라떼 맛집 추천해주세요!" },
+      { "authorName": "수아", "content": "경포호 석양 사진 감성 쩔어요 ✨" },
+      { "authorName": "나래", "content": "주문진도 근처 맛집 많죠!" }
+    ]
+  }
+]
