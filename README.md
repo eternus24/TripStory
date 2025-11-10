@@ -39,7 +39,6 @@ AI를 활용해 사용자의 여행 데이터를 분석하고
 
 ![메인1](./screenshot/메인1.JPG)  
 ![메인2](./screenshot/메인2.JPG)  
-![메인2](./screenshot/메인2JPG)
 
 ---
 
@@ -59,7 +58,7 @@ AI를 활용해 사용자의 여행 데이터를 분석하고
 - 반려 시 재전송 가능 / 승인 시 자동 반영  
 - UI: 등급 표시, 모달창, 통계그래프  
 
-![마이페이지](./screenshot/마이페이지1.jpg)  
+![마이페이지](./screenshot/마이페이지.jpg)  
 ![나의 여행](./screenshot/나의%20여행.jpg)  
 ![나의 여행 스탬프](./screenshot/나의%20여행%20스탬프.jpg)  
 ![내 쿠폰함](./screenshot/내쿠폰함.JPG)  
