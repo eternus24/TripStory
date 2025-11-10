@@ -33,15 +33,15 @@ KMA 날씨 API, KTO 축제 API, 네이버 지도 API를 연동해
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/메인1.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/메인2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/메인1.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/메인2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 <p align="center"><b>메인 페이지</b> &nbsp;&nbsp;&nbsp; <b>날씨별 추천 코스</b></p>
 
 <p align="center">
-  <img src="./screenshots/전국축제정보(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/전국축제정보(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/전국축제정보(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/전국축제정보(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 <p align="center"><b>축제정보 메인</b> &nbsp;&nbsp;&nbsp; <b>축제 카드 리스트</b></p>
@@ -61,8 +61,8 @@ JWT 기반 인증 구조로 토큰 만료 시 자동 재발급이 이루어집�
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/로그인.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/사용자%20등급%20안내.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/로그인.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/사용자%20등급%20안내.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 <p align="center"><b>로그인</b> &nbsp;&nbsp;&nbsp; <b>등급 안내 모달</b></p>
@@ -82,14 +82,14 @@ JWT 기반 인증 구조로 토큰 만료 시 자동 재발급이 이루어집�
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/마이페이지1.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/나의%20여행.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/마이페이지1.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/나의%20여행.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>마이페이지</b> &nbsp;&nbsp;&nbsp; <b>여행 목록</b></p>
 
 <p align="center">
-  <img src="./screenshots/나의%20여행%20스탬프.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/내쿠폰함.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/나의%20여행%20스탬프.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/내쿠폰함.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>스탬프 지도</b> &nbsp;&nbsp;&nbsp; <b>쿠폰함</b></p>
 
@@ -107,14 +107,14 @@ JWT 기반 인증 구조로 토큰 만료 시 자동 재발급이 이루어집�
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/관리자%20대시보드.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/관리자%20대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/관리자%20대시보드.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/관리자%20대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>관리자 대시보드</b> &nbsp;&nbsp;&nbsp; <b>통계 그래프</b></p>
 
 <p align="center">
-  <img src="./screenshots/공지사항%20등록.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/관리자%20승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/공지사항%20등록.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/관리자%20승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>공지사항 등록</b> &nbsp;&nbsp;&nbsp; <b>승인 관리</b></p>
 
@@ -133,8 +133,8 @@ PDF 다운로드 및 지도 미리보기 기능도 포함되어 있습니다.
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/AI%20여행%20추천%20페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/AI%20여행%20추천%20실행%20결과.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/AI%20여행%20추천%20페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/AI%20여행%20추천%20실행%20결과.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>AI 추천 입력</b> &nbsp;&nbsp;&nbsp; <b>AI 추천 결과</b></p>
 
@@ -152,8 +152,8 @@ AI가 장면별 이미지 컷을 만들어내며, 이를 여행 다이어리처�
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/트립스토리%20페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/트립스토리%20이미지%20생성%20모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/트립스토리%20페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/트립스토리%20이미지%20생성%20모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>TripStory 메인</b> &nbsp;&nbsp;&nbsp; <b>이미지 생성 모달</b></p>
 
@@ -171,14 +171,14 @@ AI 추천으로 생성된 여행도 이곳에 공유할 수 있습니다.
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshots/여행후기게시판(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/여행후기게시판(작성).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행후기게시판(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행후기게시판(작성).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>후기 목록</b> &nbsp;&nbsp;&nbsp; <b>후기 작성</b></p>
 
 <p align="center">
-  <img src="./screenshots/여행후기게시판(후기카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/여행후기게시판(댓글).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행후기게시판(후기카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행후기게시판(댓글).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 <p align="center"><b>후기 카드</b> &nbsp;&nbsp;&nbsp; <b>댓글 보기</b></p>
 
@@ -194,13 +194,13 @@ AI 추천으로 생성된 여행도 이곳에 공유할 수 있습니다.
 <summary>🏠 메인 / 축제 / 지도</summary>
 
 <p align="center">
-  <img src="./screenshots/여행사이트(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/여행사이트(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행사이트(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행사이트(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 <p align="center">
-  <img src="./screenshots/여행맵.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/여행맵2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행맵.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행맵2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 </details>
@@ -209,13 +209,13 @@ AI 추천으로 생성된 여행도 이곳에 공유할 수 있습니다.
 <summary>🧑‍💼 관리자 / 유저관리 / 통계</summary>
 
 <p align="center">
-  <img src="./screenshots/공지사항%20수정.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/유저관리.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/공지사항%20수정.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/유저관리.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 <p align="center">
-  <img src="./screenshots/관리자%20대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/관리자%20승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/관리자%20대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/관리자%20승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 </details>
@@ -224,13 +224,13 @@ AI 추천으로 생성된 여행도 이곳에 공유할 수 있습니다.
 <summary>🎨 TripStory / AI 생성 / 모달</summary>
 
 <p align="center">
-  <img src="./screenshots/트립스토리%20여행기록%20데이터%20등록.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/트립스토리%20이미지%20생성%20모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/트립스토리%20여행기록%20데이터%20등록.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/트립스토리%20이미지%20생성%20모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 <p align="center">
-  <img src="./screenshots/여행추가방법.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshots/스탬프%20획득.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/여행추가방법.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/스탬프%20획득.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
 </p>
 
 </details>
