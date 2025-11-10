@@ -5,6 +5,19 @@
 
 ---
 
+## 📌 프로젝트 개요
+
+| 항목 | 내용 |
+|------|------|
+| **프로젝트명** | TripStory (트립스토리) |
+| **기간** | 2025.10.22 ~ 2025.11.10 (20일) |
+| **팀명** | 콜데프 (CallDayProject) |
+| **팀장** | 차현탁 |
+| **팀원** | 박성훈 · 은지영 · 최민아 |
+| **GitHub** | [https://github.com/eternus24/TripStory](https://github.com/eternus24/TripStory) |
+
+---
+
 ## 💡 프로젝트 주제
 
 AI를 활용해 사용자의 여행 데이터를 분석하고  
@@ -18,33 +31,206 @@ AI를 활용해 사용자의 여행 데이터를 분석하고
 
 ---
 
-## 🧩 주요 기능 소개
+## 🧩 기능별 화면
 
 ---
 
-### 🏠 메인 페이지
+### 🏠 메인(Main)
 
-사용자가 처음 진입하는 메인 화면으로,  
-날씨 기반 추천 코스 / 축제정보 / 공지사항 / 인기 여행기록 등이 한눈에 보이도록 구성되어 있습니다.  
-KMA 날씨 API, KTO 축제 API, 네이버 지도 API를 연동해  
-**실시간 지역별 추천 코스와 축제 정보**를 제공합니다.
+사용자가 처음 접하는 요약 허브 화면.  
+공지사항·다가오는 축제·날씨별 추천코스·핵심 진입 링크를 한눈에 보여준다.
 
 <details>
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshot/메인1.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/메인2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/메인1.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/메인2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
 </p>
 
-<p align="center"><b>메인 페이지</b> &nbsp;&nbsp;&nbsp; <b>날씨별 추천 코스</b></p>
+</details>
+
+---
+
+### 🌤 날씨 & 축제 & 지도(WeatherCourse / Festival / Map)
+
+KMA 날씨·KTO 축제·네이버 지도 데이터를 결합해  
+지역·날씨별 추천코스, 전국 축제 카드, 지도 기반 검색/미리보기 제공.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshot/전국축제정보(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/전국축제정보(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/전국축제정보(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/전국축제정보(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
 </p>
 
-<p align="center"><b>축제정보 메인</b> &nbsp;&nbsp;&nbsp; <b>축제 카드 리스트</b></p>
+<p align="center">
+  <img src="./screenshot/여행사이트(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/여행사이트(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/여행맵.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/여행맵2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/테마별여행추천(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/테마별여행추천(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+<p align="center"><b>테마별 여행 추천(메인)</b> &nbsp;&nbsp;&nbsp; <b>테마별 여행 추천(카드)</b></p>
+
+</details>
+
+---
+
+### 🛍 로컬마켓(LocalMarket) & 쿠폰
+
+지역 상점/상품을 탐색하고, 여행/스탬프에 연동된 쿠폰을 발급·적용한다.  
+모달 상세·쿠폰 전용 뷰 제공.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
+
+<p align="center">
+  <img src="./screenshot/여행로컬마켓(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/여행로컬마켓(모달창).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/여행로컬마켓(쿠폰만).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/내쿠폰함.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+</details>
+
+---
+
+### 🤖 AI 여행 추천(AI Trip)
+
+출발지/지역/테마/기간 입력 → AI가 맞춤 코스·하이라이트·키워드 구성.  
+결과 미리보기/확장, 저장/공유 기능 제공.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
+
+<p align="center">
+  <img src="./screenshot/AI 여행 추천 페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/AI 여행 추천 실행 결과.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/AI 여행 추천 실행 결과(2).jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/스탬프 획득.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+</details>
+
+---
+
+### 🎨 TripStory (AI 웹툰)
+
+여행 기록을 기반으로 AI가 장면별 이미지를 생성해 웹툰처럼 기록.  
+입력(제목/지역/감정) → 이미지 생성 모달 → 결과 저장.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
+
+<p align="center">
+  <img src="./screenshot/트립스토리 페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/트립스토리 이미지 생성 모달.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/트립스토리 여행기록 데이터 모달.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/여행 추가방법.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+</details>
+
+---
+
+### 👤 마이페이지(My Page) & 스탬프/등급
+
+내 여행 목록/상태(대기·승인·반려), 스탬프 지도, 등급 안내/상승 알림.  
+활동→스탬프→등급→쿠폰까지 연결되는 개인화 핵심 화면.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
+
+<p align="center">
+  <img src="./screenshot/마이페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/나의 여행.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/나의 여행 스탬프.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/승인완료 모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/사용자 등급 안내.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/스탬프 획득.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+</details>
+
+---
+
+### 🧑‍💼 관리자(Admin)
+
+공지/승인/유저/통계 등 서비스 운영 전반.  
+대시보드로 핵심 KPI를 시각화하고, 승인·반려·일괄승인 모달 제공.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
+
+<p align="center">
+  <img src="./screenshot/관리자 대시보드.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/관리자 대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/공지사항 등록.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/공지사항 수정.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/관리자 승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/모두 승인 모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/유저관리.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+</details>
+
+---
+
+### 💬 후기게시판(Community)
+
+후기 목록·작성·카드·댓글 흐름을 제공.  
+좋아요/댓글 인터랙션과 필터·정렬을 지원.
+
+<details>
+<summary>자세히 보기 / 간략히 보기</summary>
+
+<p align="center">
+  <img src="./screenshot/여행후기게시판(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/여행후기게시판(후기작성).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/여행후기게시판(후기카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/여행후기게시판(댓글).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+
+<p align="center">
+  <img src="./screenshot/여행후기게시물(기능들).JPG" width="90%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+</p>
+<p align="center"><b>후기게시물 – 기능 모음</b></p>
 
 </details>
 
@@ -54,184 +240,17 @@ KMA 날씨 API, KTO 축제 API, 네이버 지도 API를 연동해
 
 사용자 인증 및 접근제어 기능을 담당하는 페이지입니다.  
 일반 로그인, 카카오·구글 소셜로그인 모두 지원하며  
-JWT 기반 인증 구조로 토큰 만료 시 자동 재발급이 이루어집니다.  
-회원가입 시 유효성 검사를 포함한 클라이언트-서버 연동 구조입니다.
+JWT 기반 인증 구조로 토큰 만료 시 자동 재발급이 이루어집니다.
 
 <details>
 <summary>자세히 보기 / 간략히 보기</summary>
 
 <p align="center">
-  <img src="./screenshot/로그인.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/사용자%20등급%20안내.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
+  <img src="./screenshot/로그인.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
+  <img src="./screenshot/사용자 등급 안내.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:6px;">
 </p>
 
 <p align="center"><b>로그인</b> &nbsp;&nbsp;&nbsp; <b>등급 안내 모달</b></p>
-
-</details>
-
----
-
-### 👤 마이페이지
-
-사용자 개인화 페이지로,  
-등록한 여행 목록과 승인 상태, 누적 스탬프, 등급 상승 여부, 쿠폰 관리 기능을 제공합니다.  
-등급에 따라 색상과 아이콘이 다르게 표시되며,  
-관리자 승인 이후 스탬프가 자동으로 추가됩니다.
-
-<details>
-<summary>자세히 보기 / 간략히 보기</summary>
-
-<p align="center">
-  <img src="./screenshot/마이페이지1.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/나의%20여행.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>마이페이지</b> &nbsp;&nbsp;&nbsp; <b>여행 목록</b></p>
-
-<p align="center">
-  <img src="./screenshot/나의%20여행%20스탬프.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/내쿠폰함.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>스탬프 지도</b> &nbsp;&nbsp;&nbsp; <b>쿠폰함</b></p>
-
-</details>
-
----
-
-### 🧑‍💼 관리자 페이지
-
-사이트 전체의 데이터를 관리하는 전용 관리자 화면입니다.  
-가입자 수, 방문자 수, 승인 대기 내역 등을 실시간으로 조회할 수 있으며,  
-공지사항 등록·수정, 유저 승인·반려 처리 등 기능을 포함합니다.
-
-<details>
-<summary>자세히 보기 / 간략히 보기</summary>
-
-<p align="center">
-  <img src="./screenshot/관리자%20대시보드.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/관리자%20대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>관리자 대시보드</b> &nbsp;&nbsp;&nbsp; <b>통계 그래프</b></p>
-
-<p align="center">
-  <img src="./screenshot/공지사항%20등록.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/관리자%20승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>공지사항 등록</b> &nbsp;&nbsp;&nbsp; <b>승인 관리</b></p>
-
-</details>
-
----
-
-### 🤖 AI 여행 추천
-
-OpenAI API를 활용한 AI 기반 코스 생성 페이지입니다.  
-출발지, 지역, 테마, 여행기간을 입력하면  
-AI가 일정·추천코스·여행 키워드를 자동으로 구성해줍니다.  
-PDF 다운로드 및 지도 미리보기 기능도 포함되어 있습니다.
-
-<details>
-<summary>자세히 보기 / 간략히 보기</summary>
-
-<p align="center">
-  <img src="./screenshot/AI%20여행%20추천%20페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/AI%20여행%20추천%20실행%20결과.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>AI 추천 입력</b> &nbsp;&nbsp;&nbsp; <b>AI 추천 결과</b></p>
-
-</details>
-
----
-
-### 🎨 TripStory (AI 웹툰 생성)
-
-사용자의 여행 데이터를 기반으로 AI가 웹툰 형식의 여행기록을 생성하는 페이지입니다.  
-입력한 여행 제목, 지역, 감정 키워드 등을 토대로  
-AI가 장면별 이미지 컷을 만들어내며, 이를 여행 다이어리처럼 저장할 수 있습니다.
-
-<details>
-<summary>자세히 보기 / 간략히 보기</summary>
-
-<p align="center">
-  <img src="./screenshot/트립스토리%20페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/트립스토리%20이미지%20생성%20모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>TripStory 메인</b> &nbsp;&nbsp;&nbsp; <b>이미지 생성 모달</b></p>
-
-</details>
-
----
-
-### 💬 후기게시판 / 커뮤니티
-
-사용자 간의 여행 경험을 공유하는 커뮤니티 기능입니다.  
-좋아요, 댓글, 정렬·검색, 해시태그 필터 등이 포함되어 있으며  
-AI 추천으로 생성된 여행도 이곳에 공유할 수 있습니다.
-
-<details>
-<summary>자세히 보기 / 간략히 보기</summary>
-
-<p align="center">
-  <img src="./screenshot/여행후기게시판(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/여행후기게시판(작성).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>후기 목록</b> &nbsp;&nbsp;&nbsp; <b>후기 작성</b></p>
-
-<p align="center">
-  <img src="./screenshot/여행후기게시판(후기카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/여행후기게시판(댓글).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-<p align="center"><b>후기 카드</b> &nbsp;&nbsp;&nbsp; <b>댓글 보기</b></p>
-
-</details>
-
----
-
----
-
-## 📸 기능별 세부 화면 모아보기
-
-<details>
-<summary>🏠 메인 / 축제 / 지도</summary>
-
-<p align="center">
-  <img src="./screenshot/여행사이트(메인).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/여행사이트(카드).JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-
-<p align="center">
-  <img src="./screenshot/여행맵.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/여행맵2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-
-</details>
-
-<details>
-<summary>🧑‍💼 관리자 / 유저관리 / 통계</summary>
-
-<p align="center">
-  <img src="./screenshot/공지사항%20수정.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/유저관리.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-
-<p align="center">
-  <img src="./screenshot/관리자%20대시보드2.JPG" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/관리자%20승인페이지.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-
-</details>
-
-<details>
-<summary>🎨 TripStory / AI 생성 / 모달</summary>
-
-<p align="center">
-  <img src="./screenshot/트립스토리%20여행기록%20데이터%20등록.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/트립스토리%20이미지%20생성%20모달창.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
-
-<p align="center">
-  <img src="./screenshot/여행추가방법.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-  <img src="./screenshot/스탬프%20획득.jpg" width="45%" style="border-radius:10px; border:1px solid #ccc; margin:5px;">
-</p>
 
 </details>
 
